@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/predict', methods=['GET'])
 def predict():
-    return {"name": "Pranav"}
+    return {"name": "Image"}
 
 if __name__ == "__main__":
     app.run(debug=True)
