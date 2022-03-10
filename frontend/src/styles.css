@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+@import url("https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css");
+
 
 /* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap'); */
 * {
@@ -91,8 +93,17 @@ a:hover {
   width: 250px;
 }
 
+html, body {
+  margin:0px;
+  height:100%;
+}
+
 .map-container {
-  height: 94vh;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+  width: 100%;
 }
 
 .map {
