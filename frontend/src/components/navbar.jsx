@@ -3,7 +3,7 @@ import{Link} from "react-router-dom"
 import { CDBSidebar, CDBContainer,CDBSidebarContent, CDBSidebarHeader, CDBSidebarMenu, CDBSidebarMenuItem, CDBSidebarFooter } from "cdbreact";
 import {Dropdown}  from 'react-bootstrap';
 
-import "./../styles.css";
+import "./../styles.scss";
 
 class Navbar extends React.Component {
   constructor() {

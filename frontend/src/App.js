@@ -11,7 +11,6 @@ class App  extends Component {
         <Switch>
           <Route exact path="/"   component={Starter}/>
           <Route exact path="/map" component={Map}/>
-         
         </Switch>
       </main>
     );
