@@ -1,8 +1,11 @@
 import React, { useRef, useEffect, useState } from "react";
+import axios from "axios";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import SideBarWrap from "./sidewrap";
 import Navbar from "./navbar";
 import geoJson from "../data/stations.json";
+import Popup from "./Popup";
+
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJhbmF2MTI5OCIsImEiOiJja3NjMWxjOTMwYzRkMm9xcTUxNXFpYzl5In0._gL-06fXtg1yBszkiiFjEQ";
 
@@ -14,6 +17,9 @@ export default function Map() {
   const [lng, setLng] = useState(82.5699);
   const [lat, setLat] = useState(22.1957);
   const [zoom, setZoom] = useState(3.35);
+  const [popupData, setPopupData] = useState({})
+  const [showPopup, setShowPopup] = useState(false)
+
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
@@ -75,24 +81,33 @@ export default function Map() {
         map.getCanvas().style.cursor = "";
       });
 
-      map.current.on("click", "category", (e) => {
+      map.current.on("click", "category", async(e) => {
         const popUpMarkup = `${e.features[0].properties.address}`;
-        // const coordinates = e.features[0].geometry.coordinates.slice();
         const coordinates = [
           e.features[0].geometry.coordinates[0],
           e.features[0].geometry.coordinates[1],
         ];
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
+        const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${coordinates[0]},${coordinates[1]}.json?access_token=${mapboxgl.accessToken}`
+        const result = await axios.get(url);
+        console.log(result.data.features[0], "RESULT");
+        setPopupData(result.data.features[0]);
+        setShowPopup((prev)=>!prev);
+        // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        //   coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        // }
 
-        const popup = new mapboxgl.Popup({ closeOnClick: false })
-          .setLngLat(coordinates)
-          .setHTML(popUpMarkup)
-          .addTo(map.current)
+        // const popup = new mapboxgl.Popup({ closeOnClick: false })
+        //   .setLngLat(coordinates)
+        //   .setHTML(popUpMarkup)
+        //   .addTo(map.current)
       });
     });
   });
+
+  const popup = ()=>{
+    console.log("CLOSE POPUP")
+    setShowPopup((prev)=>!prev);
+  }
 
   return (
     <div>
@@ -102,6 +117,7 @@ export default function Map() {
       <div ref={mapContainer} className="map-container" />
       <Navbar />
       <SideBarWrap />
+      {showPopup && <Popup data={popupData} showPopup={popup}/>}
     </div>
   );
 }
