@@ -7,11 +7,10 @@ const SideBarWrap = (props) => {
     <div id="sidebar" className="sidebar-wrapper d-none d-md-block">
       <div className="sidebar-content">
         <a className="sidebar-logo" href="../">
-          <i className="fas fa-user-clock"></i> <span>TIMIZE</span>
+          <span>DISCOVER</span>
         </a>
       </div>
-      <nav id="filter-group" className="filter-group">
-      </nav>
+      <nav id="filter-group" className="filter-group"></nav>
     </div>
   );
 };

@@ -10,19 +10,16 @@ class Starter extends Component {
                 <div className="header">
             
                 <div className="text">
-                 Lorem ipsum dolor sit amet consectetur 
-                 adipisicing elit. Adipisci facilis odit voluptatem, magnam, 
-                 hic tenetur natus, eligendi harum expedita velit nostrum perspiciatis sed voluptate ducimus!
+                DISCOVER the objects and features in the image using Explainable AI Techniques. Field Data is an incredible source of information to validate earth observation studies. This Field Datasets will be of high value in terms of the research and development in Space Applications. It is felt that catalogue of field data and AI based solution to discover the objects or features will be a milestone during India’s Self Reliance Journey in Geospatial Sector.
                 </div>
                 <br />
    
                 <div className="btns gradient-button gradient-button-3">
-                    CLick Here
-                    
+                    Upload
                     </div>
 
                 {/* <i className="fa fa-globe"></i> */}
-                <img className='fa' src="eart.png" alt="" />
+                <a href="/map"><img className='fa' src="eart.png" alt="" /></a>
                     </div>
                 {/* <img src="enviormnent.jpg" className="img-fluid" alt="txt" /> */}
             </div>
