@@ -1,8 +1,15 @@
 
 .carousel{
+position: absolute;
+top: 50px;
+left: 350px;
+
     margin-left: 5px;
     margin-right: 50%;
-  height:1000px;
-  width:1000px; 
+  height:700px;
+  width:700px; 
+  /* backdrop-filter: blur(5px); */
+  z-index: 102;
 }
+
 

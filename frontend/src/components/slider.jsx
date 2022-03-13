@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import './carousel.css'
-const slider = () => {
+const Slider = () => {
   return (
     <>
       <Carousel fade>
@@ -36,4 +36,4 @@ const slider = () => {
   );
 };
 
-export default slider;
+export default Slider;
