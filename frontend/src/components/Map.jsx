@@ -3,24 +3,23 @@ import axios from "axios";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import SideBarWrap from "./sidewrap";
 import Navbar from "./navbar";
-import geoJson from "../data/stations.json";
+import geoJson from "../data/markers.json";
 import Popup from "./Popup";
 import Carousel from './carousel';
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJhbmF2MTI5OCIsImEiOiJja3NjMWxjOTMwYzRkMm9xcTUxNXFpYzl5In0._gL-06fXtg1yBszkiiFjEQ";
 
-const allFilter = ["Forest", "Airport"];
+
 export default function Map() {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [filter, setFilter] = useState(allFilter);
   const [lng, setLng] = useState(82.5699);
   const [lat, setLat] = useState(22.1957);
   const [zoom, setZoom] = useState(3.35);
-  const [popupData, setPopupData] = useState({})
-  const [showPopup, setShowPopup] = useState(false)
-
+  const [popupData, setPopupData] = useState({});
+  const [showPopup, setShowPopup] = useState(false);
+  const [layerIDMap, setLayerIDMap] = useState({});
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
@@ -40,75 +39,113 @@ export default function Map() {
       setZoom(map.current.getZoom().toFixed(2));
     });
   });
-  
+
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
     map.current.on("load", () => {
-      map.current.addControl(new mapboxgl.NavigationControl());
+      console.log("EFFECT");
+      map.current.addControl(new mapboxgl.NavigationControl(), "bottom-right");
+
       // Add the vector tileset as a source.
       map.current.addSource("category", {
         type: "geojson",
         data: geoJson,
       });
-      map.current.addLayer({
-        id: "category",
-        type: "circle",
-        source: "category",
-        paint: {
-          // Make circles larger as the user zooms from z12 to z22.
-          "circle-radius": {
-            base: 10.75,
-            stops: [
-              [12, 10],
-              [22, 180],
-            ],
-          },
-          // Color circles by ethnicity, using a `match` expression.
-          "circle-color": [
-            "match",
-            ["get", "category"],
-            "Airport",
-            "red",
-            "Forest",
-            "blue",
-            /* other */ "#ccc",
-          ],
-        },
-      });
-      map.current.on("mouseenter", "clusters", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
-      map.current.on("mouseleave", "clusters", () => {
-        map.getCanvas().style.cursor = "";
-      });
+      for (const feature of geoJson.features) {
+        const filterCategory = feature.properties.category;
+        const layerID = `poi-${filterCategory}`;
+        const key = `${filterCategory}`;
+        const value = `${layerID}`;
+        setLayerIDMap((prevState) => ({
+          ...prevState,
+          [key]: value,
+        }));
+        if (!map.current.getLayer(layerID)) {
+          map.current.addLayer({
+            id: layerID,
+            type: "circle",
+            source: "category",
+            filter: ["==", "category", filterCategory],
+            paint: {
+              // Make circles larger as the user zooms from z12 to z22.
+              "circle-radius": {
+                base: 10.75,
+                stops: [
+                  [12, 10],
+                  [22, 180],
+                ],
+              },
+              // Color circles by ethnicity, using a `match` expression.
+              "circle-color": [
+                "match",
+                ["get", "category"],
+                "Agriculture",
+                "green",
+                "Dump Sites",
+                "red",
+                "Mineral Extraction Sites",
+                "blue",
+                "Urban City",
+                "yellow",
+                /* other */ "#ccc",
+              ],
+            },
+          });
 
-      map.current.on("click", "category", async(e) => {
-        const popUpMarkup = `${e.features[0].properties.address}`;
-        const coordinates = [
-          e.features[0].geometry.coordinates[0],
-          e.features[0].geometry.coordinates[1],
-        ];
-        const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${coordinates[0]},${coordinates[1]}.json?access_token=${mapboxgl.accessToken}`
-        const result = await axios.get(url);
-        console.log(result.data.features[0], "RESULT");
-        setPopupData(result.data.features[0]);
-        setShowPopup((prev)=>!prev);
-        // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        //   coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        // }
+        const filterGroup = document.getElementById("filter-group");
+        const input = document.createElement("input");
+        input.type = "checkbox";
+        input.id = layerID;
+        input.checked = true;
+        filterGroup.appendChild(input);
 
-        // const popup = new mapboxgl.Popup({ closeOnClick: false })
-        //   .setLngLat(coordinates)
-        //   .setHTML(popUpMarkup)
-        //   .addTo(map.current)
-      });
+        const label = document.createElement("label");
+        label.setAttribute("for", layerID);
+        label.textContent = filterCategory;
+        filterGroup.appendChild(label);
+        // console.log(checkedLayerId, "CHC");
+        input.addEventListener("change", (e) => {
+          map.current.setLayoutProperty(
+            layerID,
+            "visibility",
+            e.target.checked ? "visible" : "none"
+          );
+        });
+        }
+
+        map.current.on("mouseenter", "clusters", () => {
+          map.getCanvas().style.cursor = "pointer";
+        });
+        map.current.on("mouseleave", "clusters", () => {
+          map.getCanvas().style.cursor = "";
+        });
+
+        map.current.on("click", layerID, async (e) => {
+          const popUpMarkup = `${e.features[0].properties.address}`;
+          const coordinates = [
+            e.features[0].geometry.coordinates[0],
+            e.features[0].geometry.coordinates[1],
+          ];
+          const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${coordinates[0]},${coordinates[1]}.json?access_token=${mapboxgl.accessToken}`;
+          const result = await axios.get(url);
+          setPopupData(result.data.features[0]);
+          setShowPopup((prev) => !prev);
+          // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+          //   coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+          // }
+
+          // const popup = new mapboxgl.Popup({ closeOnClick: false })
+          //   .setLngLat(coordinates)
+          //   .setHTML(popUpMarkup)
+          //   .addTo(map.current)
+        });
+      }
     });
   });
 
-  const popup = ()=>{
-    console.log("CLOSE POPUP")
-    setShowPopup((prev)=>!prev);
-  }
+  const popup = () => {
+    setShowPopup((prev) => !prev);
+  };
 
   return (
     <div>
