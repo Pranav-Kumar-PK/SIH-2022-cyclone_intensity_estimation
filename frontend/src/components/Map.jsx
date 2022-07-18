@@ -1,15 +1,16 @@
 import React, { useRef, useEffect, useState } from "react";
+import { Route, Switch } from "react-router-dom";
 import axios from "axios";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import SideBarWrap from "./sidewrap";
 import Navbar from "./navbar";
 import geoJson from "../data/markers.json";
 import Popup from "./Popup";
-import Carousel from './carousel';
+import Carousel from "./carousel";
+import Analysis from "./Toggle";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJhbmF2MTI5OCIsImEiOiJja3NjMWxjOTMwYzRkMm9xcTUxNXFpYzl5In0._gL-06fXtg1yBszkiiFjEQ";
-
 
 export default function Map() {
   const mapContainer = useRef(null);
@@ -43,7 +44,6 @@ export default function Map() {
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
     map.current.on("load", () => {
-      console.log("EFFECT");
       map.current.addControl(new mapboxgl.NavigationControl(), "bottom-right");
 
       // Add the vector tileset as a source.
@@ -51,6 +51,7 @@ export default function Map() {
         type: "geojson",
         data: geoJson,
       });
+
       for (const feature of geoJson.features) {
         const filterCategory = feature.properties.category;
         const layerID = `poi-${filterCategory}`;
@@ -92,53 +93,39 @@ export default function Map() {
             },
           });
 
-        const filterGroup = document.getElementById("filter-group");
-        const input = document.createElement("input");
-        input.type = "checkbox";
-        input.id = layerID;
-        input.checked = true;
-        filterGroup.appendChild(input);
+          const filterGroup = document.getElementById("filter-group");
+          const input = document.createElement("input");
+          input.type = "checkbox";
+          input.id = layerID;
+          input.checked = true;
+          filterGroup.appendChild(input);
 
-        const label = document.createElement("label");
-        label.setAttribute("for", layerID);
-        label.textContent = filterCategory;
-        filterGroup.appendChild(label);
-        // console.log(checkedLayerId, "CHC");
-        input.addEventListener("change", (e) => {
-          map.current.setLayoutProperty(
-            layerID,
-            "visibility",
-            e.target.checked ? "visible" : "none"
-          );
-        });
+          const label = document.createElement("label");
+          label.setAttribute("for", layerID);
+          label.textContent = filterCategory;
+          filterGroup.appendChild(label);
+          // console.log(checkedLayerId, "CHC");
+          input.addEventListener("change", (e) => {
+            map.current.setLayoutProperty(
+              layerID,
+              "visibility",
+              e.target.checked ? "visible" : "none"
+            );
+          });
+
+          map.current.on("click", layerID, async (e) => {
+            console.log("clicked");
+            const popUpMarkup = `${e.features[0].properties.address}`;
+            const coordinates = [
+              e.features[0].geometry.coordinates[0],
+              e.features[0].geometry.coordinates[1],
+            ];
+            const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${coordinates[0]},${coordinates[1]}.json?access_token=${mapboxgl.accessToken}`;
+            const result = await axios.get(url);
+            setPopupData(result.data.features[0]);
+            setShowPopup(true);
+          });
         }
-
-        map.current.on("mouseenter", "clusters", () => {
-          map.getCanvas().style.cursor = "pointer";
-        });
-        map.current.on("mouseleave", "clusters", () => {
-          map.getCanvas().style.cursor = "";
-        });
-
-        map.current.on("click", layerID, async (e) => {
-          const popUpMarkup = `${e.features[0].properties.address}`;
-          const coordinates = [
-            e.features[0].geometry.coordinates[0],
-            e.features[0].geometry.coordinates[1],
-          ];
-          const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${coordinates[0]},${coordinates[1]}.json?access_token=${mapboxgl.accessToken}`;
-          const result = await axios.get(url);
-          setPopupData(result.data.features[0]);
-          setShowPopup((prev) => !prev);
-          // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-          //   coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-          // }
-
-          // const popup = new mapboxgl.Popup({ closeOnClick: false })
-          //   .setLngLat(coordinates)
-          //   .setHTML(popUpMarkup)
-          //   .addTo(map.current)
-        });
       }
     });
   });
@@ -148,15 +135,19 @@ export default function Map() {
   };
 
   return (
-    <div>
+    <div className="main">
       <div className="map">
         Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
       </div>
       <div ref={mapContainer} className="map-container" />
-      <Navbar />
       <SideBarWrap />
-      <Carousel/>
-      {showPopup && <Popup data={popupData} showPopup={popup}/>}
+      <Carousel />
+      <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="analysis">
+          <Analysis />
+        </div>
+      </div>
+      {showPopup && <Popup data={popupData} showPopup={popup} />}
     </div>
   );
 }

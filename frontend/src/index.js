@@ -8,7 +8,7 @@ import './index.css';
 import Map from './components/Map';
 import { BrowserRouter,Switch } from 'react-router-dom';
 
-import App from "./App.js"
+import App from "./App.jsx"
 
 
 
