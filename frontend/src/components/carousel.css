@@ -1,0 +1,23 @@
+
+.carousel{
+position: absolute;
+top: 50px;
+left: 350px;
+
+    margin-left: 5px;
+    margin-right: 50%;
+  height:700px;
+  width:700px; 
+  /* backdrop-filter: blur(5px); */
+  z-index: 102;
+}
+.input{
+  position: absolute;
+  left:250px;
+  top:400px;
+  background-color: #000;
+  width:170px;
+  height:50px
+}
+
+

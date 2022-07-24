@@ -5,7 +5,7 @@ import SideBarWrap from "./sidewrap";
 import Navbar from "./navbar";
 import geoJson from "../data/markers.json";
 import Popup from "./Popup";
-import Carousel from './carousel';
+import Slider from './slider';
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJhbmF2MTI5OCIsImEiOiJja3NjMWxjOTMwYzRkMm9xcTUxNXFpYzl5In0._gL-06fXtg1yBszkiiFjEQ";
@@ -148,14 +148,15 @@ export default function Map() {
   };
 
   return (
-    <div>
-      <div className="map">
+    <div className="maps">
+      {/* <Slider/> */}
+      <div className="map ">
         Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
       </div>
       <div ref={mapContainer} className="map-container" />
       <Navbar />
       <SideBarWrap />
-      <Carousel/>
+     
       {showPopup && <Popup data={popupData} showPopup={popup}/>}
     </div>
   );
