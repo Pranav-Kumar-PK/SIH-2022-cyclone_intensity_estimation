@@ -149,7 +149,7 @@ export default function Map() {
 
   return (
     <div className="maps">
-      <Slider/>
+      {/* <Slider/> */}
       <div className="map ">
         Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
       </div>
