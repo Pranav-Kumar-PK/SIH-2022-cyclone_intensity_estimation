@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Toggle = () => {
+const Toggle = (props) => {
   return (
     <div>
       <div class="form-check">
@@ -15,6 +15,7 @@ const Toggle = () => {
             type="radio"
             name="Analysis"
             id="Urbanization"
+            checked= {props.currentPage==="urbanization"? true:false}
           />
           <label class="form-check-label" for="Urbanization">
             Urbanization
@@ -32,6 +33,7 @@ const Toggle = () => {
             type="radio"
             name="Analysis"
             id="Poverty"
+            checked= {props.currentPage==="poverty"? true:false}
           />
           <label class="form-check-label" for="Poverty">
             Poverty

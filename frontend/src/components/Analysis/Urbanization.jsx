@@ -22,7 +22,7 @@ const Urbanization = () => {
     if (map.current) return; // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: "mapbox://styles/mapbox/satellite-streets-v11",
+      style: "mapbox://styles/pranav1298/cl5zjtnt9001515o13718d28v",
       center: [lng, lat],
       zoom: zoom,
     });
@@ -133,7 +133,7 @@ const Urbanization = () => {
       <SideBarWrap />
       <div class="navbar navbar-default navbar-fixed-bottom">
         <div class="analysis">
-          <Analysis />
+          <Analysis currentPage="urbanization"/>
         </div>
       </div>
       {/* {showPopup && <Popup data={popupData} showPopup={popup} />} */}
