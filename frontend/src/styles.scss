@@ -388,15 +388,15 @@ body {
 .sidebar-wrapper {
   position: fixed;
   width: 240px;
-  background: #0a0a0a;
-  top: 0;
+  background: #0a0a0a00;
+  top: 30%;
   bottom: 0;
-  left: 0;
+  left: 6%;
   z-index: 665;
   will-change: width;
   transition: width 0.5s ease;
   overflow: hidden;
-  border-right: 1px solid #dddddd;
+  border-right: 1px solid #dddddd00;
 }
 .sidebar-wrapper .sidebar-content {
   width: 240px;
@@ -649,7 +649,8 @@ $bright-color: #fff;
   font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 600;
   position: absolute;
-  margin-left: 35px;
+  margin-left:10px;
+  margin-bottom: 5px;
   z-index: 1;
   border-radius: 3px;
   width: 120px;
@@ -670,11 +671,15 @@ $bright-color: #fff;
 }
 
 .filter-group input[type="checkbox"] + label {
-  background-color: #3386c0;
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: -5px 8px 8px 1px #000000a3;
+  // background-color: #3386c0;
   display: block;
   cursor: pointer;
   padding: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 3px solid rgb(0 0 0 / 64%);
 }
 
 .filter-group input[type="checkbox"] + label {

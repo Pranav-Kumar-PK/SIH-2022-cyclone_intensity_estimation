@@ -6,9 +6,9 @@ const SideBarWrap = (props) => {
   return (
     <div id="sidebar" className="sidebar-wrapper d-none d-md-block">
       <div className="sidebar-content">
-        <a className="sidebar-logo" href="../">
+        {/* <a className="sidebar-logo" href="../">
           <span>DISCOVER</span>
-        </a>
+        </a> */}
       </div>
       <nav id="filter-group" className="filter-group"></nav>
     </div>

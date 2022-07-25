@@ -280,12 +280,12 @@ export default function Map() {
           const filterGroup = document.getElementById("filter-group");
           const input = document.createElement("input");
           input.type = "checkbox";
-          input.id = layerID;
+          input.id = `${layerID}1`;
           input.checked = true;
           filterGroup.appendChild(input);
 
           const label = document.createElement("label");
-          label.setAttribute("for", layerID);
+          label.setAttribute("for", `${layerID}1`);
           label.textContent = filterCategory;
           filterGroup.appendChild(label);
           // console.log(checkedLayerId, "CHC");
@@ -356,7 +356,7 @@ export default function Map() {
           <Analysis />
         </div>
       </div>
-      {/* {showPopup && <Popup data={popupData} showPopup={popup} />} */}
+      {showPopup && <Popup data={popupData} showPopup={popup} />}
     </div>
   );
 }
