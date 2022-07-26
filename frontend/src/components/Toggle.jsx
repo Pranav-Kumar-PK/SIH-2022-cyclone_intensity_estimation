@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Toggle = (props) => {
   return (
-    <div>
+    <div className="toggle">
       <div class="form-check">
         <NavLink
           className="navbar-item"

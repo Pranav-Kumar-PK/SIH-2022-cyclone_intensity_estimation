@@ -293,12 +293,10 @@ body {
   /* background: rgb(19, 181, 245);
     background: linear-gradient(90deg, rgb(19, 192, 245) 0%, rgb(189, 251, 243) 53%, rgba(245,246,247,1) 100%); */
   position: fixed;
-  width: calc(100% - 240px);
+  width: 100%;
   padding-left: 30px;
   padding-right: 30px;
   height: 45px;
-  top: 600px;
-  left: 240px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -383,6 +381,23 @@ body {
 }
 .navbar-right .user-dropdown .btn-primary i {
   font-size: 13px;
+}
+
+.toggle {
+  position: fixed;
+  margin-top: 500px;
+  margin-left: 70px;
+}
+
+#menu {
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  padding: 10px;
+  margin-left: 65%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .sidebar-wrapper {
@@ -649,7 +664,7 @@ $bright-color: #fff;
   font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 600;
   position: absolute;
-  margin-left:10px;
+  margin-left: 10px;
   margin-bottom: 5px;
   z-index: 1;
   border-radius: 3px;
@@ -671,10 +686,18 @@ $bright-color: #fff;
 }
 
 .filter-group input[type="checkbox"] + label {
-  background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-box-shadow: -5px 8px 8px 1px #000000a3;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: -5px 8px 8px 1px #000000a3;
   // background-color: #3386c0;
   display: block;
   cursor: pointer;
@@ -697,8 +720,8 @@ box-shadow: -5px 8px 8px 1px #000000a3;
   margin-left: 5px;
 }
 
-.analysis .labels{
- color: #d3e6ee;
- position: absolute;
- z-index: 100px;
+.analysis .labels {
+  color: #d3e6ee;
+  position: absolute;
+  z-index: 100px;
 }

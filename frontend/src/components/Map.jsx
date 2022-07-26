@@ -26,7 +26,9 @@ export default function Map() {
     if (map.current) return; // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
+      // style: "mapbox://styles/mapbox/streets-v11",
       style: "mapbox://styles/pranav1298/cl5zjtnt9001515o13718d28v",
+      // style: "mapbox://styles/pranav1298/cl61wt1ud002414nuqjeui04p",
       center: [lng, lat],
       zoom: zoom,
       projection: "globe",
@@ -71,7 +73,6 @@ export default function Map() {
         }));
         const layer = `${layerID}1`;
         if (!map.current.getLayer(layer)) {
-
           //LAYER 1
           map.current.addLayer({
             id: `${layerID}1`,
@@ -99,10 +100,10 @@ export default function Map() {
                 "#db00b6",
                 "Urban City",
                 "#2d00f7",
-                /*other*/"#ccc"
+                /*other*/ "#ccc",
               ],
-              "circle-blur":0.8,
-              "circle-opacity":0.2
+              "circle-blur": 0.8,
+              "circle-opacity": 0.2,
             },
           });
 
@@ -133,10 +134,10 @@ export default function Map() {
                 "#db00b6",
                 "Urban City",
                 "#2d00f7",
-                /*other*/"#ccc"
+                /*other*/ "#ccc",
               ],
-              "circle-blur":0.7,
-              "circle-opacity":0.3
+              "circle-blur": 0.7,
+              "circle-opacity": 0.3,
             },
           });
 
@@ -167,10 +168,10 @@ export default function Map() {
                 "#db00b6",
                 "Urban City",
                 "#2d00f7",
-                /*other*/"#ccc"
+                /*other*/ "#ccc",
               ],
-              "circle-blur":0.5,
-              "circle-opacity":0.4
+              "circle-blur": 0.5,
+              "circle-opacity": 0.4,
             },
           });
 
@@ -201,10 +202,10 @@ export default function Map() {
                 "#db00b6",
                 "Urban City",
                 "#2d00f7",
-                /*other*/"#ccc"
+                /*other*/ "#ccc",
               ],
-              "circle-blur":0.2,
-              "circle-opacity":0.2
+              "circle-blur": 0.2,
+              "circle-opacity": 0.2,
             },
           });
 
@@ -235,10 +236,10 @@ export default function Map() {
                 "#ffffff",
                 "Urban City",
                 "#ffffff",
-                /*other*/"#ccc"
+                /*other*/ "#ccc",
               ],
-              "circle-blur":0.3,
-              "circle-opacity":0.5
+              "circle-blur": 0.3,
+              "circle-opacity": 0.5,
             },
           });
 
@@ -269,13 +270,12 @@ export default function Map() {
                 "#ffffff",
                 "Urban City",
                 "#ffffff",
-                /*other*/"#ccc"
+                /*other*/ "#ccc",
               ],
-              "circle-blur":0.8,
-              "circle-opacity":0.8
+              "circle-blur": 0.8,
+              "circle-opacity": 0.8,
             },
           });
-
 
           const filterGroup = document.getElementById("filter-group");
           const input = document.createElement("input");
@@ -351,7 +351,7 @@ export default function Map() {
       <div ref={mapContainer} className="map-container" />
       <SideBarWrap />
       {/* <Carousel /> */}
-      <div class="navbar navbar-default navbar-fixed-bottom">
+      <div>
         <div class="analysis">
           <Analysis />
         </div>
