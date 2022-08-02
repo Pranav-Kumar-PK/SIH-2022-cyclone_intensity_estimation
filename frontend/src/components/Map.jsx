@@ -346,9 +346,10 @@ export default function Map() {
   return (
     <div className="main">
       <div className="map">
-        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
+        {/* Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} */}
       </div>
       <div ref={mapContainer} className="map-container" />
+      <Navbar/>
       <SideBarWrap />
       {/* <Carousel /> */}
       <div>
