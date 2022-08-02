@@ -59,7 +59,7 @@ export default function Map() {
       // Add the vector tileset as a source.
       map.current.addSource("labels", {
         type: "geojson",
-        data: geoJson,
+        data: "https://github.com/Pranav-Kumar-PK/SIH-2022/blob/update/geojson/frontend/src/bigEarth.geojson",
       });
 
       for (const feature of geoJson.features) {
