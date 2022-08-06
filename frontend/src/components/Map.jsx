@@ -47,13 +47,6 @@ export default function Map() {
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
     map.current.on("load", () => {
-      map.current.setFog({
-        "horizon-blend": 0.1,
-        "star-intensity": 1.1,
-        color: "white",
-        "high-color": "rgba(66, 88, 106, 1.0)",
-        "space-color": "rgba(66, 88, 106, 1.0)",
-      });
       map.current.addControl(new mapboxgl.NavigationControl(), "bottom-right");
 
       // Add the vector tileset as a source.
@@ -345,17 +338,14 @@ export default function Map() {
 
   return (
     <div className="main">
-      <div className="map">
-        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-      </div>
       <div ref={mapContainer} className="map-container" />
       <SideBarWrap />
       {/* <Carousel /> */}
-      <div>
+      {/* <div>
         <div class="analysis">
           <Analysis />
         </div>
-      </div>
+      </div> */}
       {showPopup && <Popup data={popupData} showPopup={popup} />}
     </div>
   );
