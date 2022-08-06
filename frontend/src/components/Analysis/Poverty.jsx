@@ -59,7 +59,7 @@ const Poverty = () => {
       <SideBarWrap />
       <div class="navbar navbar-default navbar-fixed-bottom">
         <div class="analysis">
-          <Analysis currentPage="poverty"/>
+          <Analysis currentPage="poverty" />
         </div>
       </div>
       {/* {showPopup && <Popup data={popupData} showPopup={popup} />} */}

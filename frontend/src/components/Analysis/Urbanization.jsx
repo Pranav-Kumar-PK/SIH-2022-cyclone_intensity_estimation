@@ -120,7 +120,6 @@ const Urbanization = () => {
         },
         "waterway-label"
       );
-      
     });
   });
 
@@ -133,7 +132,7 @@ const Urbanization = () => {
       <SideBarWrap />
       <div class="navbar navbar-default navbar-fixed-bottom">
         <div class="analysis">
-          <Analysis currentPage="urbanization"/>
+          <Analysis currentPage="urbanization" />
         </div>
       </div>
       {/* {showPopup && <Popup data={popupData} showPopup={popup} />} */}

@@ -17,7 +17,7 @@ export default function Map() {
   const map = useRef(null);
   const [lng, setLng] = useState(79.5699);
   const [lat, setLat] = useState(22.1957);
-  const [zoom, setZoom] = useState(2.75);
+  const [zoom, setZoom] = useState(2.0);
   const [popupData, setPopupData] = useState({});
   const [showPopup, setShowPopup] = useState(false);
   const [layerIDMap, setLayerIDMap] = useState({});

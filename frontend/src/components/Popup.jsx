@@ -5,7 +5,7 @@ const Popup = (props) => {
   const onClickHandler = () => {
     props.showPopup();
   };
-  
+
   return (
     <div onClick={onClickHandler} className="container">
       <div className="container__profile">

@@ -1,23 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import reportWebVitals from "./reportWebVitals";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import  "../node_modules/font-awesome/css/font-awesome.min.css";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 import "../node_modules/bootstrap-social/bootstrap-social.css";
-import './index.css';
-import Map from './components/Map';
-import { BrowserRouter,Switch } from 'react-router-dom';
+import "./index.css";
+import Map from "./components/Map";
+import { BrowserRouter, Switch } from "react-router-dom";
 
-import App from "./App.jsx"
-
-
+import App from "./App.jsx";
 
 ReactDOM.render(
-    <BrowserRouter>
-      <App/>
-   </BrowserRouter>,
-   document.getElementById("root")
-   );
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
