@@ -18,7 +18,7 @@ export default function Map() {
   const [lng, setLng] = useState(79.5699);
   const [lat, setLat] = useState(22.1957);
   const [zoom, setZoom] = useState(2.0);
-  const [popupData, setPopupData] = useState({});
+  const [popupData, setPopupData] = useState({"details":"","features":[]});
   const [showPopup, setShowPopup] = useState(false);
   const [layerIDMap, setLayerIDMap] = useState({});
 
@@ -324,14 +324,15 @@ export default function Map() {
             ];
             const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${coordinates[0]},${coordinates[1]}.json?access_token=${mapboxgl.accessToken}`;
             const result = await axios.get(url);
-            setPopupData(result.data.features[0]);
+            setPopupData({"details":result.data.features[0],"features":["Industrial", "Urban City", "Forest", "Agricultural"]});
+            
             setShowPopup(true);
           });
         }
       }
     });
   });
-
+  // console.log(popupData)
   const popup = () => {
     setShowPopup((prev) => !prev);
   };
