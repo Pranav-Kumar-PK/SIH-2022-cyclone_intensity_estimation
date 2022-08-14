@@ -4,15 +4,16 @@ import { Link } from "react-router-dom";
 
 const SideBarWrap = (props) => {
   return (
-    <div id="sidebar" className="sidebar-wrapper d-none d-md-block">
-      <div className="sidebar-content">
-        {/* <a className="sidebar-logo" href="../">
-          <span>DISCOVER</span>
-        </a> */}
+    <div className="sidebar-main">
+      <div class="right">
+      <i id="sidebar-hover-icon" className="fas fa-arrow-alt-circle-right"></i>
       </div>
-      <nav id="filter-group" className="filter-group"></nav>
+      <div id="sidebar" className="sidebar-wrapper">
+        <div className="sidebar-content">
+          <nav id="filter-group" className="filter-group"></nav>
+        </div>
+      </div>
     </div>
   );
 };
-
 export default SideBarWrap;

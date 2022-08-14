@@ -18,7 +18,7 @@ export default function Map() {
   const [lng, setLng] = useState(79.5699);
   const [lat, setLat] = useState(22.1957);
   const [zoom, setZoom] = useState(2.0);
-  const [popupData, setPopupData] = useState({});
+  const [popupData, setPopupData] = useState({"details":"","features":[]});
   const [showPopup, setShowPopup] = useState(false);
   const [layerIDMap, setLayerIDMap] = useState({});
 
@@ -47,13 +47,6 @@ export default function Map() {
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
     map.current.on("load", () => {
-      map.current.setFog({
-        "horizon-blend": 0.1,
-        "star-intensity": 1.1,
-        color: "white",
-        "high-color": "rgba(66, 88, 106, 1.0)",
-        "space-color": "rgba(66, 88, 106, 1.0)",
-      });
       map.current.addControl(new mapboxgl.NavigationControl(), "bottom-right");
 
       // Add the vector tileset as a source.
@@ -331,31 +324,29 @@ export default function Map() {
             ];
             const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${coordinates[0]},${coordinates[1]}.json?access_token=${mapboxgl.accessToken}`;
             const result = await axios.get(url);
-            setPopupData(result.data.features[0]);
+            setPopupData({"details":result.data.features[0],"features":["Industrial", "Urban City", "Forest", "Agricultural"]});
+            
             setShowPopup(true);
           });
         }
       }
     });
   });
-
+  // console.log(popupData)
   const popup = () => {
     setShowPopup((prev) => !prev);
   };
 
   return (
     <div className="main">
-      <div className="map">
-        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-      </div>
       <div ref={mapContainer} className="map-container" />
       <SideBarWrap />
       {/* <Carousel /> */}
-      <div>
+      {/* <div>
         <div class="analysis">
           <Analysis />
         </div>
-      </div>
+      </div> */}
       {showPopup && <Popup data={popupData} showPopup={popup} />}
     </div>
   );

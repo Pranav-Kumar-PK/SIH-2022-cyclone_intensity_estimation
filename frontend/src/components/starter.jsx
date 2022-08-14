@@ -66,32 +66,6 @@ export default function Starter() {
         }
       }
 
-      // Pause spinning on interaction
-      map.current.on("mousedown", () => {
-        userInteracting = true;
-      });
-
-      // Restart spinning the globe when interaction is complete
-      map.current.on("mouseup", () => {
-        userInteracting = false;
-        spinGlobe();
-      });
-
-      // These events account for cases where the mouse has moved
-      // off the map.current, so 'mouseup' will not be fired.
-      map.current.on("dragend", () => {
-        userInteracting = false;
-        spinGlobe();
-      });
-      map.current.on("pitchend", () => {
-        userInteracting = false;
-        spinGlobe();
-      });
-      map.current.on("rotateend", () => {
-        userInteracting = false;
-        spinGlobe();
-      });
-
       // When animation is complete, start spinning if there is no ongoing interaction
       map.current.on("moveend", () => {
         spinGlobe();
