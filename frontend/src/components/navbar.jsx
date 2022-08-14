@@ -69,7 +69,18 @@ class Navbar extends React.Component {
   render() {
     const isTaskViewPage = this.props.isTaskViewPage;
 
-    return <nav class="navbar1 navbar-default"></nav>;
+    return (
+      <div>
+        <nav class="navbar navbar-default">
+          <a className="noselect" href="http://">
+            About
+          </a>
+          <a className="noselect" href="http://">
+            Model
+          </a>
+        </nav>
+      </div>
+    );
   }
 }
 

@@ -15,7 +15,7 @@ const Toggle = (props) => {
             type="radio"
             name="Analysis"
             id="Urbanization"
-            checked= {props.currentPage==="urbanization"? true:false}
+            checked={props.currentPage === "urbanization" ? true : false}
           />
           <label class="form-check-label" for="Urbanization">
             Urbanization
@@ -33,7 +33,7 @@ const Toggle = (props) => {
             type="radio"
             name="Analysis"
             id="Poverty"
-            checked= {props.currentPage==="poverty"? true:false}
+            checked={props.currentPage === "poverty" ? true : false}
           />
           <label class="form-check-label" for="Poverty">
             Poverty
