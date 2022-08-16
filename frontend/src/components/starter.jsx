@@ -32,9 +32,9 @@ export default function Starter() {
     if (!map.current) return; // initialize map only once
     map.current.on("load", () => {
       map.current.setFog({
-        range: [-4.8, 8],
+        range: [-2.8, 6],
         color: "#8ae3f4",
-        "horizon-blend": 0.2,
+        "horizon-blend": 0.05,
         "high-color": "#001219",
         "space-color": "#000000",
         "star-intensity": 0.5,
