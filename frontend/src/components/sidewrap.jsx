@@ -6,7 +6,10 @@ const SideBarWrap = (props) => {
   return (
     <div className="sidebar-main">
       <div class="right">
-      <i id="sidebar-hover-icon" className="fas fa-arrow-alt-circle-right"></i>
+        <i
+          id="sidebar-hover-icon"
+          className="fas fa-arrow-alt-circle-right"
+        ></i>
       </div>
       <div id="sidebar" className="sidebar-wrapper">
         <div className="sidebar-content">

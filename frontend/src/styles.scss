@@ -584,24 +584,31 @@ $bright-color: #fff;
   background-color: white;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 35%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 750px;
-  height: 500px;
+  height: 300px;
   border-radius: 30px;
   position: relative;
   box-shadow: 0 0 50px 5px rgb(26 144 204);
   .popup__image {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    left: -25px;
-    top: -25px;
+    width: 200px;
+    height: 200px;
+    margin-left: 13px;
+    margin-top: 13px;
+    object-fit: cover;
     border-radius: 20px;
-    box-shadow: -6px 0px 50px 5px #1a90cc;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
 }
+
+.popup__features i {
+  // font-size: large;
+  text-shadow: 2px 4px 15px #041854;
+  cursor: pointer;
+}
+
 .container__popup__profile {
   background-color: #05aefbb5;
   display: flex;
@@ -625,8 +632,8 @@ $bright-color: #fff;
 }
 
 #close {
-  top: -172px;
-  right: -319px;
+  top: -79px;
+  right: -511px;
   overflow: hidden;
   position: relative;
   border: none;
@@ -650,10 +657,16 @@ $bright-color: #fff;
   position: absolute;
   margin: 0 auto;
   display: block;
+  height: 100vh;
   z-index: 1;
   border-radius: 3px;
   width: 120px;
+  overflow-y: scroll;
+  scrollbar-width: none;
   color: #fff;
+}
+.filter-group::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .filter-group input[type="checkbox"]:first-child + label {
@@ -864,7 +877,7 @@ $bright-color: #fff;
 // }
 
 .popup__features {
-  padding: 6px 0;
+  padding: -10px 0;
 
   a {
     padding: 4px 0;
@@ -895,5 +908,72 @@ $bright-color: #fff;
       transform: scaleX(1);
       transform-origin: left;
     }
+  }
+}
+
+.label__icons .label__hover__text {
+  visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 3px 3px 12px 2px black;
+  /* Position the label__icons text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 115%;
+  // left: 50%;
+  margin-left: -75px;
+}
+
+/* Show the label__icons text when you mouse over the label__icons container */
+.label__icons:hover .label__hover__text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.label__icons .label__hover__image {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 135%;
+  width: 900px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: -484px; //Please don't change, or there will be consequences
+  box-shadow: 1px 0px 13px 0px #1582b7;
+}
+
+.label__icons .label__hover__image {
+  visibility: visible;
+}
+
+.label__img__close {
+  position: absolute;
+  cursor: pointer;
+}
+.label__image__wrapper {
+  i {
+    font-size: xx-large;
+    margin-left: 396px;
+    margin-top: -3px;
+    color: #03e9f4;
+    z-index: 1;
+  }
+}
+
+.label__image__wrapper:hover {
+  .label__hover__image {
+    box-shadow: 1px 1px 1px black, 1px 1px 1px black;
+  }
+  i {
+    text-shadow: 1px 1px 1px black;
   }
 }
