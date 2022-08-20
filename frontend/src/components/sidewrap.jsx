@@ -5,11 +5,12 @@ import { Link } from "react-router-dom";
 const SideBarWrap = (props) => {
   return (
     <div className="sidebar-main">
-      <div class="right">
-      <i id="sidebar-hover-icon" className="fas fa-arrow-alt-circle-right"></i>
-      </div>
       <div id="sidebar" className="sidebar-wrapper">
         <div className="sidebar-content">
+          <div className="sidebar__heading">
+            <span>LABELS</span>
+            <hr />
+          </div>
           <nav id="filter-group" className="filter-group"></nav>
         </div>
       </div>

@@ -1,0 +1,1970 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters", "Pastures"],
+        "datetime": "2017-06-17T11:33:21+0000",
+        "distribution": {
+          "Pastures": 79.33333333333333,
+          "Beaches, dunes, sands": 11.590277777777777,
+          "Marine waters": 7.368055555555555
+        },
+        "status": {
+          "Pastures": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684077/S2A_MSIL2A_20170617T113321_71_66/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684079/S2A_MSIL2A_20170617T113321_71_66/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684081/S2A_MSIL2A_20170617T113321_71_66/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684082/S2A_MSIL2A_20170617T113321_71_66/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.271129859499774, 52.50618162183507]
+      },
+      "id": "S2A_MSIL2A_20170617T113321_71_66"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Inland wetlands",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Pastures"
+        ],
+        "datetime": "2017-06-17T11:33:21+0000",
+        "distribution": {
+          "Pastures": 55.951388888888886,
+          "Beaches, dunes, sands": 45.923611111111114,
+          "Inland wetlands": 9.618055555555555,
+          "Marine waters": 7.819444444444444
+        },
+        "status": {
+          "Pastures": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Inland wetlands": "False Negative",
+          "Marine waters": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684084/S2A_MSIL2A_20170617T113321_73_63/Inland%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684087/S2A_MSIL2A_20170617T113321_73_63/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684089/S2A_MSIL2A_20170617T113321_73_63/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684100/S2A_MSIL2A_20170617T113321_73_63/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684113/S2A_MSIL2A_20170617T113321_73_63/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.233779636505154, 52.53768817143964]
+      },
+      "id": "S2A_MSIL2A_20170617T113321_73_63"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Urban fabric",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Pastures"
+        ],
+        "datetime": "2017-06-17T11:33:21+0000",
+        "distribution": {
+          "Urban fabric": 74.09027777777779,
+          "Pastures": 42.875,
+          "Beaches, dunes, sands": 22.916666666666664,
+          "Marine waters": 5.715277777777778
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Pastures": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684147/S2A_MSIL2A_20170617T113321_74_60/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684150/S2A_MSIL2A_20170617T113321_74_60/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684152/S2A_MSIL2A_20170617T113321_74_60/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684154/S2A_MSIL2A_20170617T113321_74_60/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684156/S2A_MSIL2A_20170617T113321_74_60/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.214059735952938, 52.56959972884264]
+      },
+      "id": "S2A_MSIL2A_20170617T113321_74_60"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Complex cultivation patterns",
+          "Arable land",
+          "Inland waters",
+          "Beaches, dunes, sands"
+        ],
+        "datetime": "2017-07-04T11:21:11+0000",
+        "distribution": {
+          "Arable land": 59.28472222222222,
+          "Complex cultivation patterns": 53.208333333333336,
+          "Beaches, dunes, sands": 50.65972222222223,
+          "Inland waters": 62.125
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Complex cultivation patterns": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Inland waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684349/S2A_MSIL2A_20170704T112111_34_38/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684351/S2A_MSIL2A_20170704T112111_34_38/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684353/S2A_MSIL2A_20170704T112111_34_38/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684355/S2A_MSIL2A_20170704T112111_34_38/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684357/S2A_MSIL2A_20170704T112111_34_38/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.526793020742353, 39.33842668123647]
+      },
+      "id": "S2A_MSIL2A_20170704T112111_34_38"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Mixed forest",
+          "Coniferous forest"
+        ],
+        "datetime": "2017-07-20T10:00:31+0000",
+        "distribution": {
+          "Coniferous forest": 5.75,
+          "Mixed forest": 44.298611111111114,
+          "Beaches, dunes, sands": 74.57638888888889,
+          "Marine waters": 14.11111111111111
+        },
+        "status": {
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684647/S2A_MSIL2A_20170720T100031_82_58/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684649/S2A_MSIL2A_20170720T100031_82_58/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684651/S2A_MSIL2A_20170720T100031_82_58/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684654/S2A_MSIL2A_20170720T100031_82_58/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684656/S2A_MSIL2A_20170720T100031_82_58/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.974156084299167, 55.32034194498114]
+      },
+      "id": "S2A_MSIL2A_20170720T100031_82_58"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Mixed forest",
+          "Coniferous forest"
+        ],
+        "datetime": "2017-07-20T10:00:31+0000",
+        "distribution": {
+          "Coniferous forest": 6.888888888888889,
+          "Mixed forest": 40.61805555555556,
+          "Beaches, dunes, sands": 76.71527777777779,
+          "Marine waters": 20.125
+        },
+        "status": {
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684677/S2A_MSIL2A_20170720T100031_86_48/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684680/S2A_MSIL2A_20170720T100031_86_48/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684684/S2A_MSIL2A_20170720T100031_86_48/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684688/S2A_MSIL2A_20170720T100031_86_48/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684690/S2A_MSIL2A_20170720T100031_86_48/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.049932415753148, 55.42816488709993]
+      },
+      "id": "S2A_MSIL2A_20170720T100031_86_48"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters", "Mixed forest"],
+        "datetime": "2017-07-20T10:00:31+0000",
+        "distribution": {
+          "Mixed forest": 42.55555555555556,
+          "Beaches, dunes, sands": 78.77777777777779,
+          "Marine waters": 55.951388888888886
+        },
+        "status": {
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684697/S2A_MSIL2A_20170720T100031_87_43/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684699/S2A_MSIL2A_20170720T100031_87_43/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684702/S2A_MSIL2A_20170720T100031_87_43/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684704/S2A_MSIL2A_20170720T100031_87_43/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.06898810751825, 55.48207012223055]
+      },
+      "id": "S2A_MSIL2A_20170720T100031_87_43"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Transitional woodland, shrub",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Mixed forest"
+        ],
+        "datetime": "2017-07-20T10:00:31+0000",
+        "distribution": {
+          "Mixed forest": 60.93055555555556,
+          "Transitional woodland, shrub": 93.13194444444444,
+          "Beaches, dunes, sands": 63.083333333333336,
+          "Marine waters": 21.145833333333332
+        },
+        "status": {
+          "Mixed forest": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684706/S2A_MSIL2A_20170720T100031_87_44/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684708/S2A_MSIL2A_20170720T100031_87_44/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684710/S2A_MSIL2A_20170720T100031_87_44/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684713/S2A_MSIL2A_20170720T100031_87_44/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684714/S2A_MSIL2A_20170720T100031_87_44/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.068969276489213, 55.47128727205987]
+      },
+      "id": "S2A_MSIL2A_20170720T100031_87_44"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Urban fabric",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Coniferous forest"
+        ],
+        "datetime": "2017-07-20T10:00:31+0000",
+        "distribution": {
+          "Urban fabric": 29.486111111111114,
+          "Coniferous forest": 6.611111111111111,
+          "Beaches, dunes, sands": 79.04861111111111,
+          "Marine waters": 17.708333333333336
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Coniferous forest": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684744/S2A_MSIL2A_20170720T100031_88_21/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684746/S2A_MSIL2A_20170720T100031_88_21/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684747/S2A_MSIL2A_20170720T100031_88_21/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684749/S2A_MSIL2A_20170720T100031_88_21/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684752/S2A_MSIL2A_20170720T100031_88_21/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.088508074941572, 55.71927571608922]
+      },
+      "id": "S2A_MSIL2A_20170720T100031_88_21"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Coniferous forest"
+        ],
+        "datetime": "2017-07-20T10:00:31+0000",
+        "distribution": {
+          "Coniferous forest": 6.569444444444445,
+          "Beaches, dunes, sands": 70.14583333333333,
+          "Marine waters": 11.54861111111111
+        },
+        "status": {
+          "Coniferous forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684754/S2A_MSIL2A_20170720T100031_88_22/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684757/S2A_MSIL2A_20170720T100031_88_22/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684760/S2A_MSIL2A_20170720T100031_88_22/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684761/S2A_MSIL2A_20170720T100031_88_22/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.08848370057956, 55.70849329083101]
+      },
+      "id": "S2A_MSIL2A_20170720T100031_88_22"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters"
+        ],
+        "datetime": "2017-08-13T11:21:21+0000",
+        "distribution": {
+          "Moors, heathland and sclerophyllous vegetation": 5.472222222222222,
+          "Beaches, dunes, sands": 99.42361111111111,
+          "Marine waters": 7.826388888888888
+        },
+        "status": {
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684947/S2A_MSIL2A_20170813T112121_14_88/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684949/S2A_MSIL2A_20170813T112121_14_88/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684951/S2A_MSIL2A_20170813T112121_14_88/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684952/S2A_MSIL2A_20170813T112121_14_88/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.809144362261621, 37.8971421995574]
+      },
+      "id": "S2A_MSIL2A_20170813T112121_14_88"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Coniferous forest",
+          "Permanent crops",
+          "Beaches, dunes, sands",
+          "Marine waters"
+        ],
+        "datetime": "2017-08-13T11:21:21+0000",
+        "distribution": {
+          "Permanent crops": 3.4027777777777777,
+          "Broad-leaved forest": 89.43055555555556,
+          "Coniferous forest": 12.506944444444446,
+          "Beaches, dunes, sands": 96.70833333333333,
+          "Coastal wetlands": 84.47916666666667,
+          "Marine waters": 95.5625
+        },
+        "status": {
+          "Permanent crops": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Coniferous forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684968/S2A_MSIL2A_20170813T112121_16_32/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684970/S2A_MSIL2A_20170813T112121_16_32/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684972/S2A_MSIL2A_20170813T112121_16_32/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684974/S2A_MSIL2A_20170813T112121_16_32/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684976/S2A_MSIL2A_20170813T112121_16_32/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684978/S2A_MSIL2A_20170813T112121_16_32/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684980/S2A_MSIL2A_20170813T112121_16_32/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.780032306530382, 38.50273655240252]
+      },
+      "id": "S2A_MSIL2A_20170813T112121_16_32"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters", "Mixed forest"],
+        "datetime": "2017-08-16T09:50:31+0000",
+        "distribution": {
+          "Mixed forest": 28.638888888888893,
+          "Beaches, dunes, sands": 83.93055555555556,
+          "Marine waters": 79.2986111111111
+        },
+        "status": {
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685039/S2A_MSIL2A_20170816T095031_1_52/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685041/S2A_MSIL2A_20170816T095031_1_52/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685043/S2A_MSIL2A_20170816T095031_1_52/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685044/S2A_MSIL2A_20170816T095031_1_52/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.018625355646954, 55.38504172771511]
+      },
+      "id": "S2A_MSIL2A_20170816T095031_1_52"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coniferous forest",
+          "Urban fabric",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Mixed forest",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation"
+        ],
+        "datetime": "2017-08-16T09:50:31+0000",
+        "distribution": {
+          "Urban fabric": 86.59722222222223,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 82.97916666666667,
+          "Coniferous forest": 5.159722222222222,
+          "Mixed forest": 61.22916666666667,
+          "Beaches, dunes, sands": 21.67361111111111,
+          "Marine waters": 8.222222222222223
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685191/S2A_MSIL2A_20170816T095031_4_16/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685193/S2A_MSIL2A_20170816T095031_4_16/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685196/S2A_MSIL2A_20170816T095031_4_16/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685198/S2A_MSIL2A_20170816T095031_4_16/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685200/S2A_MSIL2A_20170816T095031_4_16/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685202/S2A_MSIL2A_20170816T095031_4_16/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685204/S2A_MSIL2A_20170816T095031_4_16/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.076196476381522, 55.773195891630756]
+      },
+      "id": "S2A_MSIL2A_20170816T095031_4_16"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coniferous forest",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Mixed forest",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation"
+        ],
+        "datetime": "2017-08-16T09:50:31+0000",
+        "distribution": {
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 37.625,
+          "Coniferous forest": 5.236111111111111,
+          "Mixed forest": 54.30555555555555,
+          "Beaches, dunes, sands": 52.94444444444445,
+          "Marine waters": 33.44444444444444
+        },
+        "status": {
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685206/S2A_MSIL2A_20170816T095031_4_17/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685208/S2A_MSIL2A_20170816T095031_4_17/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685210/S2A_MSIL2A_20170816T095031_4_17/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685212/S2A_MSIL2A_20170816T095031_4_17/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685214/S2A_MSIL2A_20170816T095031_4_17/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685216/S2A_MSIL2A_20170816T095031_4_17/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.076175450106874, 55.76241355829179]
+      },
+      "id": "S2A_MSIL2A_20170816T095031_4_17"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coniferous forest",
+          "Beaches, dunes, sands",
+          "Transitional woodland, shrub",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Complex cultivation patterns"
+        ],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Complex cultivation patterns": 82.79166666666666,
+          "Coniferous forest": 6.868055555555555,
+          "Moors, heathland and sclerophyllous vegetation": 4.354166666666667,
+          "Transitional woodland, shrub": 95.79861111111111,
+          "Beaches, dunes, sands": 95.69444444444444,
+          "Marine waters": 32.97222222222223
+        },
+        "status": {
+          "Complex cultivation patterns": "True Positive",
+          "Coniferous forest": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685834/S2A_MSIL2A_20171002T112111_12_76/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685836/S2A_MSIL2A_20171002T112111_12_76/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685838/S2A_MSIL2A_20171002T112111_12_76/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685840/S2A_MSIL2A_20171002T112111_12_76/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685843/S2A_MSIL2A_20171002T112111_12_76/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685845/S2A_MSIL2A_20171002T112111_12_76/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685846/S2A_MSIL2A_20171002T112111_12_76/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.836153726524522, 38.02696936377495]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_12_76"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Coastal wetlands",
+          "Marine waters"
+        ],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 95.82638888888889,
+          "Coastal wetlands": 97.64583333333333,
+          "Marine waters": 10.597222222222221
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685876/S2A_MSIL2A_20171002T112111_16_34/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685879/S2A_MSIL2A_20171002T112111_16_34/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685880/S2A_MSIL2A_20171002T112111_16_34/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685882/S2A_MSIL2A_20171002T112111_16_34/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.780098057132676, 38.481107569672346]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_16_34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Arable land",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Broad-leaved forest"
+        ],
+        "datetime": "2017-10-02T11:21:12+0000",
+        "distribution": {
+          "Arable land": 97.4861111111111,
+          "Broad-leaved forest": 81.84027777777779,
+          "Moors, heathland and sclerophyllous vegetation": 18.45138888888889,
+          "Beaches, dunes, sands": 86.65277777777777
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Broad-leaved forest": "False Negative",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685983/S2A_MSIL2A_20171002T112112_15_14/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685985/S2A_MSIL2A_20171002T112112_15_14/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685987/S2A_MSIL2A_20171002T112112_15_14/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685989/S2A_MSIL2A_20171002T112112_15_14/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685991/S2A_MSIL2A_20171002T112112_15_14/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.795774733356303, 37.79599254028943]
+      },
+      "id": "S2A_MSIL2A_20171002T112112_15_14"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Urban fabric",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Beaches, dunes, sands"
+        ],
+        "datetime": "2017-10-02T11:21:12+0000",
+        "distribution": {
+          "Urban fabric": 56.41666666666667,
+          "Moors, heathland and sclerophyllous vegetation": 17.333333333333336,
+          "Beaches, dunes, sands": 91.39583333333333,
+          "Marine waters": 43.86805555555556
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686065/S2A_MSIL2A_20171002T112112_26_76/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686067/S2A_MSIL2A_20171002T112112_26_76/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686069/S2A_MSIL2A_20171002T112112_26_76/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686071/S2A_MSIL2A_20171002T112112_26_76/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686073/S2A_MSIL2A_20171002T112112_26_76/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.648993734019122, 37.12502868365976]
+      },
+      "id": "S2A_MSIL2A_20171002T112112_26_76"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Urban fabric",
+          "Permanent crops",
+          "Beaches, dunes, sands",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Complex cultivation patterns"
+        ],
+        "datetime": "2017-10-02T11:21:12+0000",
+        "distribution": {
+          "Urban fabric": 58.94444444444444,
+          "Permanent crops": 3.916666666666667,
+          "Complex cultivation patterns": 25.743055555555554,
+          "Moors, heathland and sclerophyllous vegetation": 5.125,
+          "Beaches, dunes, sands": 92.9375,
+          "Marine waters": 69.95833333333333
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Permanent crops": "False Negative",
+          "Complex cultivation patterns": "False Negative",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686083/S2A_MSIL2A_20171002T112112_30_75/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686085/S2A_MSIL2A_20171002T112112_30_75/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686087/S2A_MSIL2A_20171002T112112_30_75/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686089/S2A_MSIL2A_20171002T112112_30_75/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686092/S2A_MSIL2A_20171002T112112_30_75/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686094/S2A_MSIL2A_20171002T112112_30_75/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686096/S2A_MSIL2A_20171002T112112_30_75/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.594901626918997, 37.13567319213345]
+      },
+      "id": "S2A_MSIL2A_20171002T112112_30_75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2017-10-02T11:21:12+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 96.96527777777779,
+          "Marine waters": 28.979166666666668
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686158/S2A_MSIL2A_20171002T112112_86_87/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686160/S2A_MSIL2A_20171002T112112_86_87/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686162/S2A_MSIL2A_20171002T112112_86_87/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.840370775321158, 37.000894081452245]
+      },
+      "id": "S2A_MSIL2A_20171002T112112_86_87"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters"
+        ],
+        "datetime": "2017-10-02T11:21:12+0000",
+        "distribution": {
+          "Moors, heathland and sclerophyllous vegetation": 22.506944444444443,
+          "Beaches, dunes, sands": 57.23611111111111,
+          "Marine waters": 18.569444444444443
+        },
+        "status": {
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686174/S2A_MSIL2A_20171002T112112_9_64/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686176/S2A_MSIL2A_20171002T112112_9_64/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686178/S2A_MSIL2A_20171002T112112_9_64/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686180/S2A_MSIL2A_20171002T112112_9_64/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.878436228421439, 37.25528951244774]
+      },
+      "id": "S2A_MSIL2A_20171002T112112_9_64"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Urban fabric",
+          "Arable land",
+          "Beaches, dunes, sands",
+          "Inland waters",
+          "Mixed forest",
+          "Complex cultivation patterns"
+        ],
+        "datetime": "2017-11-21T11:23:51+0000",
+        "distribution": {
+          "Urban fabric": 70.44444444444444,
+          "Arable land": 97.72222222222223,
+          "Complex cultivation patterns": 6.909722222222222,
+          "Mixed forest": 1.3958333333333333,
+          "Beaches, dunes, sands": 98.80555555555556,
+          "Inland waters": 14.784722222222221
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Arable land": "True Positive",
+          "Complex cultivation patterns": "True Positive",
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Inland waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686513/S2A_MSIL2A_20171121T112351_38_34/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686515/S2A_MSIL2A_20171121T112351_38_34/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686517/S2A_MSIL2A_20171121T112351_38_34/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686519/S2A_MSIL2A_20171121T112351_38_34/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686521/S2A_MSIL2A_20171121T112351_38_34/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686524/S2A_MSIL2A_20171121T112351_38_34/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686525/S2A_MSIL2A_20171121T112351_38_34/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.470770141779466, 39.38143690549182]
+      },
+      "id": "S2A_MSIL2A_20171121T112351_38_34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Coniferous forest"
+        ],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Coniferous forest": 4.326388888888888,
+          "Moors, heathland and sclerophyllous vegetation": 7.472222222222221,
+          "Beaches, dunes, sands": 94.60416666666667,
+          "Marine waters": 27.076388888888893
+        },
+        "status": {
+          "Coniferous forest": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686883/S2A_MSIL2A_20171201T112431_11_54/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686886/S2A_MSIL2A_20171201T112431_11_54/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686889/S2A_MSIL2A_20171201T112431_11_54/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686891/S2A_MSIL2A_20171201T112431_11_54/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686892/S2A_MSIL2A_20171201T112431_11_54/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.851158942926608, 37.363425764867166]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_11_54"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Arable land", "Marine waters"],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Arable land": 96.51388888888889,
+          "Beaches, dunes, sands": 95.06944444444444,
+          "Marine waters": 33.25694444444444
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686895/S2A_MSIL2A_20171201T112431_13_31/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686897/S2A_MSIL2A_20171201T112431_13_31/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686899/S2A_MSIL2A_20171201T112431_13_31/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686901/S2A_MSIL2A_20171201T112431_13_31/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.823471543379684, 37.61216509141362]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_13_31"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Urban fabric",
+          "Beaches, dunes, sands",
+          "Transitional woodland, shrub",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation",
+          "Mixed forest",
+          "Complex cultivation patterns",
+          "Pastures"
+        ],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Urban fabric": 30.201388888888893,
+          "Pastures": 66.5,
+          "Complex cultivation patterns": 29.604166666666664,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 81.58333333333333,
+          "Broad-leaved forest": 86.88194444444444,
+          "Mixed forest": 3.375,
+          "Moors, heathland and sclerophyllous vegetation": 7.631944444444444,
+          "Transitional woodland, shrub": 71.84722222222221,
+          "Beaches, dunes, sands": 90.03472222222221,
+          "Coastal wetlands": 81.05555555555556,
+          "Marine waters": 36.041666666666664
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Pastures": "False Negative",
+          "Complex cultivation patterns": "True Positive",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Mixed forest": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686914/S2A_MSIL2A_20171201T112431_16_20/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686916/S2A_MSIL2A_20171201T112431_16_20/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686918/S2A_MSIL2A_20171201T112431_16_20/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686920/S2A_MSIL2A_20171201T112431_16_20/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686922/S2A_MSIL2A_20171201T112431_16_20/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686925/S2A_MSIL2A_20171201T112431_16_20/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686927/S2A_MSIL2A_20171201T112431_16_20/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686930/S2A_MSIL2A_20171201T112431_16_20/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686932/S2A_MSIL2A_20171201T112431_16_20/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686935/S2A_MSIL2A_20171201T112431_16_20/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686938/S2A_MSIL2A_20171201T112431_16_20/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686939/S2A_MSIL2A_20171201T112431_16_20/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.7823349220929, 37.73107310061372]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_16_20"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 97.61111111111111,
+          "Marine waters": 16.0625
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687383/S2A_MSIL2A_20171201T112431_86_88/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687385/S2A_MSIL2A_20171201T112431_86_88/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687386/S2A_MSIL2A_20171201T112431_86_88/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.840534999220919, 36.99007897874552]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_86_88"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters", "Mixed forest"],
+        "datetime": "2018-04-13T09:50:31+0000",
+        "distribution": {
+          "Mixed forest": 26.84027777777778,
+          "Beaches, dunes, sands": 96.79166666666667,
+          "Marine waters": 11.729166666666666
+        },
+        "status": {
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688828/S2A_MSIL2A_20180413T095031_2_49/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688830/S2A_MSIL2A_20180413T095031_2_49/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688832/S2A_MSIL2A_20180413T095031_2_49/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688834/S2A_MSIL2A_20180413T095031_2_49/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.037597084549887, 55.417386344658745]
+      },
+      "id": "S2A_MSIL2A_20180413T095031_2_49"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Broad-leaved forest",
+          "Coniferous forest",
+          "Urban fabric",
+          "Beaches, dunes, sands",
+          "Mixed forest",
+          "Complex cultivation patterns",
+          "Pastures"
+        ],
+        "datetime": "2018-04-13T09:50:31+0000",
+        "distribution": {
+          "Urban fabric": 88.86805555555556,
+          "Pastures": 38.07638888888889,
+          "Complex cultivation patterns": 71.36111111111111,
+          "Broad-leaved forest": 95.80555555555556,
+          "Coniferous forest": 13.854166666666668,
+          "Mixed forest": 77.88888888888889,
+          "Beaches, dunes, sands": 66.84027777777779
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Pastures": "False Negative",
+          "Complex cultivation patterns": "True Positive",
+          "Broad-leaved forest": "False Negative",
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688897/S2A_MSIL2A_20180413T095031_3_6/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688899/S2A_MSIL2A_20180413T095031_3_6/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688901/S2A_MSIL2A_20180413T095031_3_6/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688904/S2A_MSIL2A_20180413T095031_3_6/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688906/S2A_MSIL2A_20180413T095031_3_6/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688908/S2A_MSIL2A_20180413T095031_3_6/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688911/S2A_MSIL2A_20180413T095031_3_6/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688913/S2A_MSIL2A_20180413T095031_3_6/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.057225734442238, 55.881028587621756]
+      },
+      "id": "S2A_MSIL2A_20180413T095031_3_6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2018-04-13T09:50:31+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 97.45138888888889,
+          "Marine waters": 2.638888888888889
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688940/S2A_MSIL2A_20180413T095031_4_21/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688942/S2A_MSIL2A_20180413T095031_4_21/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688943/S2A_MSIL2A_20180413T095031_4_21/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.07609148779138, 55.71928403443995]
+      },
+      "id": "S2A_MSIL2A_20180413T095031_4_21"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Mixed forest",
+          "Coniferous forest"
+        ],
+        "datetime": "2018-04-13T09:50:31+0000",
+        "distribution": {
+          "Coniferous forest": 6.298611111111112,
+          "Mixed forest": 21.131944444444446,
+          "Beaches, dunes, sands": 97,
+          "Marine waters": 8.645833333333334
+        },
+        "status": {
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688945/S2A_MSIL2A_20180413T095031_4_40/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688947/S2A_MSIL2A_20180413T095031_4_40/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688950/S2A_MSIL2A_20180413T095031_4_40/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688952/S2A_MSIL2A_20180413T095031_4_40/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688953/S2A_MSIL2A_20180413T095031_4_40/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.07569576352754, 55.51441462882733]
+      },
+      "id": "S2A_MSIL2A_20180413T095031_4_40"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Coniferous forest"
+        ],
+        "datetime": "2018-04-13T09:50:31+0000",
+        "distribution": {
+          "Coniferous forest": 5.972222222222222,
+          "Beaches, dunes, sands": 66.13888888888889,
+          "Marine waters": 6.715277777777779
+        },
+        "status": {
+          "Coniferous forest": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688994/S2A_MSIL2A_20180413T095031_5_36/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688996/S2A_MSIL2A_20180413T095031_5_36/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688998/S2A_MSIL2A_20180413T095031_5_36/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660689000/S2A_MSIL2A_20180413T095031_5_36/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.094802554131885, 55.55753236541198]
+      },
+      "id": "S2A_MSIL2A_20180413T095031_5_36"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2018-04-13T09:50:31+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 96.18055555555556,
+          "Marine waters": 91.88888888888889
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660689002/S2A_MSIL2A_20180413T095031_6_42/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660689004/S2A_MSIL2A_20180413T095031_6_42/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660689006/S2A_MSIL2A_20180413T095031_6_42/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.113639808642226, 55.492819670764]
+      },
+      "id": "S2A_MSIL2A_20180413T095031_6_42"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Urban fabric",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Beaches, dunes, sands",
+          "Pastures"
+        ],
+        "datetime": "2018-05-29T11:54:01+0000",
+        "distribution": {
+          "Urban fabric": 54.20138888888889,
+          "Pastures": 24.40277777777778,
+          "Moors, heathland and sclerophyllous vegetation": 21.006944444444446,
+          "Beaches, dunes, sands": 76.03472222222221
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Pastures": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690277/S2A_MSIL2A_20180529T115401_61_68/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690279/S2A_MSIL2A_20180529T115401_61_68/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690281/S2A_MSIL2A_20180529T115401_61_68/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690284/S2A_MSIL2A_20180529T115401_61_68/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690285/S2A_MSIL2A_20180529T115401_61_68/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.850042769627658, 55.207092646327126]
+      },
+      "id": "S2A_MSIL2A_20180529T115401_61_68"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Inland wetlands"
+        ],
+        "datetime": "2018-05-29T11:54:01+0000",
+        "distribution": {
+          "Moors, heathland and sclerophyllous vegetation": 20.381944444444443,
+          "Beaches, dunes, sands": 94.34027777777779,
+          "Inland wetlands": 5.1875,
+          "Marine waters": 81.94444444444444
+        },
+        "status": {
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Inland wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690335/S2A_MSIL2A_20180529T115401_74_69/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690337/S2A_MSIL2A_20180529T115401_74_69/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690338/S2A_MSIL2A_20180529T115401_74_69/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690340/S2A_MSIL2A_20180529T115401_74_69/Inland%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690342/S2A_MSIL2A_20180529T115401_74_69/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.605353784686856, 55.193755990154585]
+      },
+      "id": "S2A_MSIL2A_20180529T115401_74_69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2018-05-29T11:54:01+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 49.52083333333333,
+          "Marine waters": 62.31250000000001
+        },
+        "status": {
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690376/S2A_MSIL2A_20180529T115401_86_57/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690379/S2A_MSIL2A_20180529T115401_86_57/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690380/S2A_MSIL2A_20180529T115401_86_57/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.373964114145867, 55.32030750961341]
+      },
+      "id": "S2A_MSIL2A_20180529T115401_86_57"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2017-07-18T11:53:59+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 43.11805555555556,
+          "Marine waters": 72.27083333333333
+        },
+        "status": {
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690617/S2B_MSIL2A_20170718T115359_3_57/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690619/S2B_MSIL2A_20170718T115359_3_57/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690620/S2B_MSIL2A_20170718T115359_3_57/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.367348241409148, 55.320219262800116]
+      },
+      "id": "S2B_MSIL2A_20170718T115359_3_57"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Transitional woodland, shrub",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Beaches, dunes, sands"
+        ],
+        "datetime": "2017-08-18T11:21:09+0000",
+        "distribution": {
+          "Moors, heathland and sclerophyllous vegetation": 39.979166666666664,
+          "Transitional woodland, shrub": 98.57638888888889,
+          "Beaches, dunes, sands": 30.555555555555557,
+          "Marine waters": 66.36111111111111
+        },
+        "status": {
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691189/S2B_MSIL2A_20170818T112109_10_63/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691191/S2B_MSIL2A_20170818T112109_10_63/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691194/S2B_MSIL2A_20170818T112109_10_63/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691196/S2B_MSIL2A_20170818T112109_10_63/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691198/S2B_MSIL2A_20170818T112109_10_63/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.86488479517506, 37.26609165473715]
+      },
+      "id": "S2B_MSIL2A_20170818T112109_10_63"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Arable land",
+          "Beaches, dunes, sands",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Mixed forest",
+          "Complex cultivation patterns"
+        ],
+        "datetime": "2017-08-18T11:21:09+0000",
+        "distribution": {
+          "Arable land": 96.88194444444444,
+          "Complex cultivation patterns": 7.013888888888889,
+          "Mixed forest": 13.5,
+          "Moors, heathland and sclerophyllous vegetation": 7.402777777777778,
+          "Beaches, dunes, sands": 95.3125
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Complex cultivation patterns": "True Positive",
+          "Mixed forest": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Beaches, dunes, sands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691216/S2B_MSIL2A_20170818T112109_15_13/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691218/S2B_MSIL2A_20170818T112109_15_13/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691221/S2B_MSIL2A_20170818T112109_15_13/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691223/S2B_MSIL2A_20170818T112109_15_13/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691225/S2B_MSIL2A_20170818T112109_15_13/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691227/S2B_MSIL2A_20170818T112109_15_13/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.795744951016072, 37.80680831743813]
+      },
+      "id": "S2B_MSIL2A_20170818T112109_15_13"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Urban fabric",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Natural grassland and sparsely vegetated areas"
+        ],
+        "datetime": "2017-08-18T11:21:09+0000",
+        "distribution": {
+          "Urban fabric": 11.993055555555555,
+          "Natural grassland and sparsely vegetated areas": 93.82638888888889,
+          "Beaches, dunes, sands": 97.88194444444444,
+          "Marine waters": 21.944444444444443
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Natural grassland and sparsely vegetated areas": "False Negative",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691318/S2B_MSIL2A_20170818T112109_4_87/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691321/S2B_MSIL2A_20170818T112109_4_87/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691323/S2B_MSIL2A_20170818T112109_4_87/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691325/S2B_MSIL2A_20170818T112109_4_87/Natural%20grassland%20and%20sparsely%20vegetated%20areas.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691327/S2B_MSIL2A_20170818T112109_4_87/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.946273083814877, 37.00654700178789]
+      },
+      "id": "S2B_MSIL2A_20170818T112109_4_87"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2017-08-18T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 98.18055555555556,
+          "Marine waters": 4.951388888888889
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691342/S2B_MSIL2A_20170818T112109_69_83/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691344/S2B_MSIL2A_20170818T112109_69_83/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691346/S2B_MSIL2A_20170818T112109_69_83/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.069085554182468, 37.046175919574566]
+      },
+      "id": "S2B_MSIL2A_20170818T112109_69_83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2017-08-18T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 99.4375,
+          "Marine waters": 95.4236111111111
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691355/S2B_MSIL2A_20170818T112109_70_84/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691357/S2B_MSIL2A_20170818T112109_70_84/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691358/S2B_MSIL2A_20170818T112109_70_84/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.055726404961284, 37.03525350489108]
+      },
+      "id": "S2B_MSIL2A_20170818T112109_70_84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2017-08-18T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 99.8125,
+          "Marine waters": 79.60416666666667
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691394/S2B_MSIL2A_20170818T112109_85_89/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691396/S2B_MSIL2A_20170818T112109_85_89/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691397/S2B_MSIL2A_20170818T112109_85_89/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.85417952391761, 36.97939474014513]
+      },
+      "id": "S2B_MSIL2A_20170818T112109_85_89"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Broad-leaved forest",
+          "Arable land",
+          "Beaches, dunes, sands",
+          "Inland waters",
+          "Transitional woodland, shrub",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation"
+        ],
+        "datetime": "2017-08-25T09:30:29+0000",
+        "distribution": {
+          "Arable land": 93.98611111111111,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 67.32638888888889,
+          "Broad-leaved forest": 67.47222222222223,
+          "Transitional woodland, shrub": 81.70138888888889,
+          "Beaches, dunes, sands": 87.88194444444444,
+          "Inland waters": 44.93055555555556
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Transitional woodland, shrub": "False Negative",
+          "Beaches, dunes, sands": "False Negative",
+          "Inland waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691433/S2B_MSIL2A_20170825T093029_10_61/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691435/S2B_MSIL2A_20170825T093029_10_61/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691437/S2B_MSIL2A_20170825T093029_10_61/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691439/S2B_MSIL2A_20170825T093029_10_61/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691442/S2B_MSIL2A_20170825T093029_10_61/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691444/S2B_MSIL2A_20170825T093029_10_61/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691445/S2B_MSIL2A_20170825T093029_10_61/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.15068263240911, 44.49477644016587]
+      },
+      "id": "S2B_MSIL2A_20170825T093029_10_61"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coniferous forest",
+          "Urban fabric",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Mixed forest"
+        ],
+        "datetime": "2017-09-30T09:50:19+0000",
+        "distribution": {
+          "Urban fabric": 38.3125,
+          "Coniferous forest": 0.5277777777777778,
+          "Mixed forest": 30.312499999999996,
+          "Beaches, dunes, sands": 80.50694444444444,
+          "Marine waters": 20.45138888888889
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693493/S2B_MSIL2A_20170930T095019_4_19/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693495/S2B_MSIL2A_20170930T095019_4_19/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693497/S2B_MSIL2A_20170930T095019_4_19/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693499/S2B_MSIL2A_20170930T095019_4_19/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693501/S2B_MSIL2A_20170930T095019_4_19/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693503/S2B_MSIL2A_20170930T095019_4_19/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.076133440419085, 55.74084883447078]
+      },
+      "id": "S2B_MSIL2A_20170930T095019_4_19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2017-09-30T09:50:19+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 96.09722222222223,
+          "Marine waters": 95.48611111111111
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693564/S2B_MSIL2A_20170930T095019_6_42/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693566/S2B_MSIL2A_20170930T095019_6_42/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693568/S2B_MSIL2A_20170930T095019_6_42/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.113639808642226, 55.492819670764]
+      },
+      "id": "S2B_MSIL2A_20170930T095019_6_42"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Coniferous forest"
+        ],
+        "datetime": "2017-11-12T11:43:39+0000",
+        "distribution": {
+          "Coniferous forest": 4.375,
+          "Beaches, dunes, sands": 95.16666666666667,
+          "Marine waters": 85.95138888888889
+        },
+        "status": {
+          "Coniferous forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693948/S2B_MSIL2A_20171112T114339_66_78/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693950/S2B_MSIL2A_20171112T114339_66_78/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693952/S2B_MSIL2A_20171112T114339_66_78/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693953/S2B_MSIL2A_20171112T114339_66_78/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.367160684690791, 52.37886347382094]
+      },
+      "id": "S2B_MSIL2A_20171112T114339_66_78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Pastures"],
+        "datetime": "2017-11-12T11:43:39+0000",
+        "distribution": {
+          "Pastures": 38.083333333333336,
+          "Beaches, dunes, sands": 25.27777777777778
+        },
+        "status": {
+          "Pastures": "True Positive",
+          "Beaches, dunes, sands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693959/S2B_MSIL2A_20171112T114339_79_33/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693961/S2B_MSIL2A_20171112T114339_79_33/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660693962/S2B_MSIL2A_20171112T114339_79_33/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.1064439777569905, 52.858387304291924]
+      },
+      "id": "S2B_MSIL2A_20171112T114339_79_33"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Urban fabric", "Beaches, dunes, sands", "Coastal wetlands"],
+        "datetime": "2018-02-20T11:43:39+0000",
+        "distribution": {
+          "Urban fabric": 13.1875,
+          "Beaches, dunes, sands": 89.22222222222223,
+          "Coastal wetlands": 89.19444444444444
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694565/S2B_MSIL2A_20180220T114339_74_68/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694567/S2B_MSIL2A_20180220T114339_74_68/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694570/S2B_MSIL2A_20180220T114339_74_68/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694571/S2B_MSIL2A_20180220T114339_74_68/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.161346748604425, 53.38090904165661]
+      },
+      "id": "S2B_MSIL2A_20180220T114339_74_68"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Urban fabric", "Beaches, dunes, sands", "Pastures"],
+        "datetime": "2018-02-20T11:43:39+0000",
+        "distribution": {
+          "Urban fabric": 0.19444444444444445,
+          "Pastures": 79.9375,
+          "Beaches, dunes, sands": 94.94444444444444
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Pastures": "False Negative",
+          "Beaches, dunes, sands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694582/S2B_MSIL2A_20180220T114339_79_89/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694586/S2B_MSIL2A_20180220T114339_79_89/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694588/S2B_MSIL2A_20180220T114339_79_89/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694589/S2B_MSIL2A_20180220T114339_79_89/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.08669279259102, 53.152502408436106]
+      },
+      "id": "S2B_MSIL2A_20180220T114339_79_89"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Complex cultivation patterns",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Transitional woodland, shrub"
+        ],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Complex cultivation patterns": 88.69444444444444,
+          "Transitional woodland, shrub": 91.11805555555556,
+          "Beaches, dunes, sands": 35.520833333333336,
+          "Marine waters": 47.75694444444444
+        },
+        "status": {
+          "Complex cultivation patterns": "False Negative",
+          "Transitional woodland, shrub": "False Negative",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694640/S2B_MSIL2A_20180224T112109_15_65/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694642/S2B_MSIL2A_20180224T112109_15_65/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694644/S2B_MSIL2A_20180224T112109_15_65/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694646/S2B_MSIL2A_20180224T112109_15_65/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694648/S2B_MSIL2A_20180224T112109_15_65/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.79480314598893, 38.14587281570209]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_15_65"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 99.36111111111111,
+          "Marine waters": 15.416666666666668
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695543/S2B_MSIL2A_20180326T112109_28_76/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695545/S2B_MSIL2A_20180326T112109_28_76/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695546/S2B_MSIL2A_20180326T112109_28_76/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.621976449675214, 37.1249456130319]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_28_76"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Beaches, dunes, sands", "Marine waters"],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 91.27777777777779,
+          "Marine waters": 4.791666666666667
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695858/S2B_MSIL2A_20180326T112109_4_76/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695860/S2B_MSIL2A_20180326T112109_4_76/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695862/S2B_MSIL2A_20180326T112109_4_76/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.946189096827158, 37.12553609433102]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_4_76"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Transitional woodland, shrub",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Beaches, dunes, sands"
+        ],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Moors, heathland and sclerophyllous vegetation": 69.93055555555556,
+          "Transitional woodland, shrub": 96.22916666666667,
+          "Beaches, dunes, sands": 41.4375,
+          "Marine waters": 14.520833333333332
+        },
+        "status": {
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Beaches, dunes, sands": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695865/S2B_MSIL2A_20180326T112109_4_78/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695867/S2B_MSIL2A_20180326T112109_4_78/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695869/S2B_MSIL2A_20180326T112109_4_78/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695871/S2B_MSIL2A_20180326T112109_4_78/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695873/S2B_MSIL2A_20180326T112109_4_78/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.946204403902996, 37.1039018918678]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_4_78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Coastal wetlands",
+          "Marine waters"
+        ],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 99.27083333333333,
+          "Coastal wetlands": 95.65277777777777,
+          "Marine waters": 8.868055555555555
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696198/S2B_MSIL2A_20180326T112109_75_86/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696200/S2B_MSIL2A_20180326T112109_75_86/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696202/S2B_MSIL2A_20180326T112109_75_86/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696203/S2B_MSIL2A_20180326T112109_75_86/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.988558320240269, 37.01306631290103]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_75_86"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Coastal wetlands",
+          "Marine waters"
+        ],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 97.76388888888889,
+          "Coastal wetlands": 76.13194444444444,
+          "Marine waters": 49.666666666666664
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696280/S2B_MSIL2A_20180326T112109_82_90/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696282/S2B_MSIL2A_20180326T112109_82_90/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696284/S2B_MSIL2A_20180326T112109_82_90/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696286/S2B_MSIL2A_20180326T112109_82_90/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.894777626751534, 36.96896286777258]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_82_90"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Arable land",
+          "Beaches, dunes, sands",
+          "Marine waters",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation",
+          "Pastures"
+        ],
+        "datetime": "2018-04-21T11:43:49+0000",
+        "distribution": {
+          "Arable land": 55.375,
+          "Pastures": 59.24305555555556,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 33.5625,
+          "Beaches, dunes, sands": 44.416666666666664,
+          "Marine waters": 21.958333333333332
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Pastures": "True Positive",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Beaches, dunes, sands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696885/S2B_MSIL2A_20180421T114349_66_74/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696887/S2B_MSIL2A_20180421T114349_66_74/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696889/S2B_MSIL2A_20180421T114349_66_74/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696891/S2B_MSIL2A_20180421T114349_66_74/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696894/S2B_MSIL2A_20180421T114349_66_74/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696895/S2B_MSIL2A_20180421T114349_66_74/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.364591781761474, 52.42197148945315]
+      },
+      "id": "S2B_MSIL2A_20180421T114349_66_74"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Broad-leaved forest",
+          "Beaches, dunes, sands",
+          "Transitional woodland, shrub",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation",
+          "Complex cultivation patterns"
+        ],
+        "datetime": "2018-05-02T09:30:39+0000",
+        "distribution": {
+          "Complex cultivation patterns": 45.0625,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 46.84722222222222,
+          "Broad-leaved forest": 47.16666666666667,
+          "Transitional woodland, shrub": 32.54861111111111,
+          "Beaches, dunes, sands": 12.451388888888888
+        },
+        "status": {
+          "Complex cultivation patterns": "True Positive",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Transitional woodland, shrub": "True Positive",
+          "Beaches, dunes, sands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660697424/S2B_MSIL2A_20180502T093039_90_25/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660697426/S2B_MSIL2A_20180502T093039_90_25/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660697428/S2B_MSIL2A_20180502T093039_90_25/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660697430/S2B_MSIL2A_20180502T093039_90_25/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660697432/S2B_MSIL2A_20180502T093039_90_25/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660697434/S2B_MSIL2A_20180502T093039_90_25/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.346257735889512, 43.97538648003827]
+      },
+      "id": "S2B_MSIL2A_20180502T093039_90_25"
+    }
+  ]
+}

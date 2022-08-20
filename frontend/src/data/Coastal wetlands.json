@@ -1,0 +1,1940 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Arable land",
+          "Coastal wetlands",
+          "Mixed forest",
+          "Marine waters"
+        ],
+        "datetime": "2017-06-13T10:10:32+0000",
+        "distribution": {
+          "Arable land": 83.60416666666667,
+          "Mixed forest": 48.84027777777778,
+          "Coastal wetlands": 66.54861111111111,
+          "Marine waters": 38.361111111111114
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683810/S2A_MSIL2A_20170613T101032_58_53/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683812/S2A_MSIL2A_20170613T101032_58_53/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683814/S2A_MSIL2A_20170613T101032_58_53/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683816/S2A_MSIL2A_20170613T101032_58_53/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683821/S2A_MSIL2A_20170613T101032_58_53/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.39525408807957, 63.449583512766786]
+      },
+      "id": "S2A_MSIL2A_20170613T101032_58_53"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Arable land",
+          "Coastal wetlands",
+          "Inland waters",
+          "Pastures"
+        ],
+        "datetime": "2017-06-17T11:33:21+0000",
+        "distribution": {
+          "Arable land": 50.96527777777777,
+          "Pastures": 47.09722222222222,
+          "Coastal wetlands": 37.09027777777778,
+          "Inland waters": 58.611111111111114
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Pastures": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Inland waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683916/S2A_MSIL2A_20170617T113321_30_84/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683918/S2A_MSIL2A_20170617T113321_30_84/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683920/S2A_MSIL2A_20170617T113321_30_84/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683922/S2A_MSIL2A_20170617T113321_30_84/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660683924/S2A_MSIL2A_20170617T113321_30_84/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.004294991069492, 52.326603022760786]
+      },
+      "id": "S2A_MSIL2A_20170617T113321_30_84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Industrial or commercial units",
+          "Marine waters",
+          "Coastal wetlands",
+          "Inland wetlands"
+        ],
+        "datetime": "2017-06-17T11:33:21+0000",
+        "distribution": {
+          "Industrial or commercial units": 12.375,
+          "Inland wetlands": 11.243055555555555,
+          "Coastal wetlands": 57.284722222222214,
+          "Marine waters": 71.36111111111111
+        },
+        "status": {
+          "Industrial or commercial units": "True Positive",
+          "Inland wetlands": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684169/S2A_MSIL2A_20170617T113321_81_19/Industrial%20or%20commercial%20units.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684171/S2A_MSIL2A_20170617T113321_81_19/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684174/S2A_MSIL2A_20170617T113321_81_19/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684176/S2A_MSIL2A_20170617T113321_81_19/Inland%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684177/S2A_MSIL2A_20170617T113321_81_19/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.0606355415486, 53.008339743596665]
+      },
+      "id": "S2A_MSIL2A_20170617T113321_81_19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Coastal wetlands", "Pastures"],
+        "datetime": "2017-07-04T11:21:11+0000",
+        "distribution": {
+          "Pastures": 49.70833333333333,
+          "Coastal wetlands": 80.97222222222223
+        },
+        "status": {
+          "Pastures": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684365/S2A_MSIL2A_20170704T112111_3_85/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684367/S2A_MSIL2A_20170704T112111_3_85/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684369/S2A_MSIL2A_20170704T112111_3_85/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.958754423360514, 38.831148224994216]
+      },
+      "id": "S2A_MSIL2A_20170704T112111_3_85"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Coastal wetlands", "Broad-leaved forest", "Pastures"],
+        "datetime": "2017-07-04T11:21:11+0000",
+        "distribution": {
+          "Pastures": 63.39583333333333,
+          "Broad-leaved forest": 36.53472222222222,
+          "Coastal wetlands": 43.84722222222222
+        },
+        "status": {
+          "Pastures": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684457/S2A_MSIL2A_20170704T112111_5_90/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684459/S2A_MSIL2A_20170704T112111_5_90/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684461/S2A_MSIL2A_20170704T112111_5_90/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684463/S2A_MSIL2A_20170704T112111_5_90/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.931155822437704, 38.777065266749524]
+      },
+      "id": "S2A_MSIL2A_20170704T112111_5_90"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Arable land", "Coastal wetlands", "Marine waters"],
+        "datetime": "2017-08-13T11:21:21+0000",
+        "distribution": {
+          "Arable land": 95.63194444444446,
+          "Coastal wetlands": 97.27777777777777,
+          "Marine waters": 98.34027777777777
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684928/S2A_MSIL2A_20170813T112121_0_14/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684931/S2A_MSIL2A_20170813T112121_0_14/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684932/S2A_MSIL2A_20170813T112121_0_14/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684934/S2A_MSIL2A_20170813T112121_0_14/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.00022999311084, 38.697601787702524]
+      },
+      "id": "S2A_MSIL2A_20170813T112121_0_14"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Arable land", "Coastal wetlands", "Marine waters"],
+        "datetime": "2017-08-13T11:21:21+0000",
+        "distribution": {
+          "Arable land": 43.451388888888886,
+          "Coastal wetlands": 41.875,
+          "Marine waters": 40.125
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684939/S2A_MSIL2A_20170813T112121_14_38/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684942/S2A_MSIL2A_20170813T112121_14_38/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684944/S2A_MSIL2A_20170813T112121_14_38/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684945/S2A_MSIL2A_20170813T112121_14_38/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.807729170767526, 38.43789771270526]
+      },
+      "id": "S2A_MSIL2A_20170813T112121_14_38"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Coniferous forest",
+          "Arable land",
+          "Marine waters",
+          "Transitional woodland, shrub"
+        ],
+        "datetime": "2017-08-13T11:21:21+0000",
+        "distribution": {
+          "Arable land": 84.88888888888889,
+          "Coniferous forest": 32.61805555555555,
+          "Transitional woodland, shrub": 74.125,
+          "Coastal wetlands": 67.86111111111111,
+          "Marine waters": 57.02083333333333
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Coniferous forest": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684955/S2A_MSIL2A_20170813T112121_15_70/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684957/S2A_MSIL2A_20170813T112121_15_70/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684959/S2A_MSIL2A_20170813T112121_15_70/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684962/S2A_MSIL2A_20170813T112121_15_70/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684964/S2A_MSIL2A_20170813T112121_15_70/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684965/S2A_MSIL2A_20170813T112121_15_70/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.79495441562638, 38.09179685843753]
+      },
+      "id": "S2A_MSIL2A_20170813T112121_15_70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Coniferous forest",
+          "Permanent crops",
+          "Beaches, dunes, sands",
+          "Marine waters"
+        ],
+        "datetime": "2017-08-13T11:21:21+0000",
+        "distribution": {
+          "Permanent crops": 3.4027777777777777,
+          "Broad-leaved forest": 89.43055555555556,
+          "Coniferous forest": 12.506944444444446,
+          "Beaches, dunes, sands": 96.70833333333333,
+          "Coastal wetlands": 84.47916666666667,
+          "Marine waters": 95.5625
+        },
+        "status": {
+          "Permanent crops": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Coniferous forest": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684968/S2A_MSIL2A_20170813T112121_16_32/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684970/S2A_MSIL2A_20170813T112121_16_32/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684972/S2A_MSIL2A_20170813T112121_16_32/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684974/S2A_MSIL2A_20170813T112121_16_32/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684976/S2A_MSIL2A_20170813T112121_16_32/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684978/S2A_MSIL2A_20170813T112121_16_32/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684980/S2A_MSIL2A_20170813T112121_16_32/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.780032306530382, 38.50273655240252]
+      },
+      "id": "S2A_MSIL2A_20170813T112121_16_32"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Marine waters", "Coastal wetlands", "Mixed forest"],
+        "datetime": "2017-08-13T11:21:21+0000",
+        "distribution": {
+          "Mixed forest": 11.555555555555555,
+          "Coastal wetlands": 96.07638888888889,
+          "Marine waters": 10.861111111111112
+        },
+        "status": {
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684992/S2A_MSIL2A_20170813T112121_18_29/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684994/S2A_MSIL2A_20170813T112121_18_29/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684996/S2A_MSIL2A_20170813T112121_18_29/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660684997/S2A_MSIL2A_20170813T112121_18_29/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.752396782589047, 38.53512488333856]
+      },
+      "id": "S2A_MSIL2A_20170813T112121_18_29"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Arable land",
+          "Marine waters",
+          "Mixed forest",
+          "Transitional woodland, shrub"
+        ],
+        "datetime": "2017-08-13T11:21:21+0000",
+        "distribution": {
+          "Arable land": 71.88194444444444,
+          "Mixed forest": 31.36111111111111,
+          "Transitional woodland, shrub": 24.96527777777778,
+          "Coastal wetlands": 49.375,
+          "Marine waters": 62.36805555555556
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Mixed forest": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685011/S2A_MSIL2A_20170813T112121_22_40/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685013/S2A_MSIL2A_20170813T112121_22_40/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685015/S2A_MSIL2A_20170813T112121_22_40/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685017/S2A_MSIL2A_20170813T112121_22_40/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685020/S2A_MSIL2A_20170813T112121_22_40/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685021/S2A_MSIL2A_20170813T112121_22_40/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.697820473912474, 38.4160365137894]
+      },
+      "id": "S2A_MSIL2A_20170813T112121_22_40"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Arable land", "Coastal wetlands", "Marine waters"],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Arable land": 96.57638888888889,
+          "Coastal wetlands": 93.51388888888889,
+          "Marine waters": 4.1875
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685861/S2A_MSIL2A_20171002T112111_14_39/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685863/S2A_MSIL2A_20171002T112111_14_39/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685865/S2A_MSIL2A_20171002T112111_14_39/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685867/S2A_MSIL2A_20171002T112111_14_39/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.807757847755235, 38.42708309249323]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_14_39"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Permanent crops", "Marine waters", "Coastal wetlands"],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Permanent crops": 1.6736111111111112,
+          "Coastal wetlands": 87.18055555555554,
+          "Marine waters": 90.79166666666667
+        },
+        "status": {
+          "Permanent crops": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685869/S2A_MSIL2A_20171002T112111_16_31/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685871/S2A_MSIL2A_20171002T112111_16_31/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685873/S2A_MSIL2A_20171002T112111_16_31/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685874/S2A_MSIL2A_20171002T112111_16_31/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.779999404771907, 38.513551013696755]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_16_31"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Coastal wetlands",
+          "Marine waters"
+        ],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 95.82638888888889,
+          "Coastal wetlands": 97.64583333333333,
+          "Marine waters": 10.597222222222221
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685876/S2A_MSIL2A_20171002T112111_16_34/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685879/S2A_MSIL2A_20171002T112111_16_34/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685880/S2A_MSIL2A_20171002T112111_16_34/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685882/S2A_MSIL2A_20171002T112111_16_34/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.780098057132676, 38.481107569672346]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_16_34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Arable land",
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Marine waters"
+        ],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Arable land": 96.00694444444444,
+          "Broad-leaved forest": 15.020833333333334,
+          "Coastal wetlands": 62.06944444444444,
+          "Marine waters": 93.375
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Broad-leaved forest": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685887/S2A_MSIL2A_20171002T112111_20_31/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685890/S2A_MSIL2A_20171002T112111_20_31/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685892/S2A_MSIL2A_20171002T112111_20_31/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685894/S2A_MSIL2A_20171002T112111_20_31/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685896/S2A_MSIL2A_20171002T112111_20_31/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.724942433580404, 38.51343464180586]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_20_31"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Arable land",
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Marine waters"
+        ],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Arable land": 93.47916666666667,
+          "Broad-leaved forest": 70.58333333333333,
+          "Coastal wetlands": 70.49305555555556,
+          "Marine waters": 57.46527777777778
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Broad-leaved forest": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685898/S2A_MSIL2A_20171002T112111_20_33/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685901/S2A_MSIL2A_20171002T112111_20_33/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685903/S2A_MSIL2A_20171002T112111_20_33/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685905/S2A_MSIL2A_20171002T112111_20_33/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685907/S2A_MSIL2A_20171002T112111_20_33/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.725024682460866, 38.49180578872936]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_20_33"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Arable land", "Coastal wetlands", "Broad-leaved forest"],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Arable land": 95.95833333333333,
+          "Broad-leaved forest": 95.11805555555556,
+          "Coastal wetlands": 93.98611111111111
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Broad-leaved forest": "False Negative",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685928/S2A_MSIL2A_20171002T112111_27_38/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685930/S2A_MSIL2A_20171002T112111_27_38/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685932/S2A_MSIL2A_20171002T112111_27_38/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685934/S2A_MSIL2A_20171002T112111_27_38/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.62898180896502, 38.43746808824624]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_27_38"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Marine waters", "Coastal wetlands"],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Coastal wetlands": 48.19444444444444,
+          "Marine waters": 9.125
+        },
+        "status": {
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685936/S2A_MSIL2A_20171002T112111_2_2/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685939/S2A_MSIL2A_20171002T112111_2_2/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685941/S2A_MSIL2A_20171002T112111_2_2/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.972581206372526, 38.82736740749148]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_2_2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Coastal wetlands", "Pastures"],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Pastures": 69.09027777777777,
+          "Coastal wetlands": 62.708333333333336
+        },
+        "status": {
+          "Pastures": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685954/S2A_MSIL2A_20171002T112111_3_2/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685957/S2A_MSIL2A_20171002T112111_3_2/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685958/S2A_MSIL2A_20171002T112111_3_2/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.9587566073174, 38.82736334492763]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_3_2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Coastal wetlands", "Pastures"],
+        "datetime": "2017-10-02T11:21:11+0000",
+        "distribution": {
+          "Pastures": 3.3541666666666665,
+          "Coastal wetlands": 89.60416666666666
+        },
+        "status": {
+          "Pastures": "False Negative",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685969/S2A_MSIL2A_20171002T112111_5_8/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685971/S2A_MSIL2A_20171002T112111_5_8/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660685973/S2A_MSIL2A_20171002T112111_5_8/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.93116985202455, 38.762466301356056]
+      },
+      "id": "S2A_MSIL2A_20171002T112111_5_8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Arable land",
+          "Inland waters",
+          "Transitional woodland, shrub",
+          "Pastures"
+        ],
+        "datetime": "2017-10-02T11:21:12+0000",
+        "distribution": {
+          "Arable land": 95.52777777777777,
+          "Pastures": 18.833333333333332,
+          "Broad-leaved forest": 65.88194444444444,
+          "Transitional woodland, shrub": 83.88194444444444,
+          "Coastal wetlands": 73.74305555555556,
+          "Inland waters": 45.61805555555555
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Pastures": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Transitional woodland, shrub": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Inland waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686009/S2A_MSIL2A_20171002T112112_18_22/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686011/S2A_MSIL2A_20171002T112112_18_22/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686014/S2A_MSIL2A_20171002T112112_18_22/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686016/S2A_MSIL2A_20171002T112112_18_22/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686018/S2A_MSIL2A_20171002T112112_18_22/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686020/S2A_MSIL2A_20171002T112112_18_22/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686022/S2A_MSIL2A_20171002T112112_18_22/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.755169835989586, 37.709387871534986]
+      },
+      "id": "S2A_MSIL2A_20171002T112112_18_22"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Marine waters",
+          "Coastal wetlands",
+          "Inland waters",
+          "Pastures"
+        ],
+        "datetime": "2017-11-21T11:23:51+0000",
+        "distribution": {
+          "Pastures": 22.27777777777778,
+          "Coastal wetlands": 75.72916666666667,
+          "Inland waters": 37.57638888888889,
+          "Marine waters": 43.65277777777778
+        },
+        "status": {
+          "Pastures": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Inland waters": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686428/S2A_MSIL2A_20171121T112351_1_83/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686430/S2A_MSIL2A_20171121T112351_1_83/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686433/S2A_MSIL2A_20171121T112351_1_83/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686435/S2A_MSIL2A_20171121T112351_1_83/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686437/S2A_MSIL2A_20171121T112351_1_83/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.986400971766361, 38.85278255896328]
+      },
+      "id": "S2A_MSIL2A_20171121T112351_1_83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Urban fabric",
+          "Beaches, dunes, sands",
+          "Transitional woodland, shrub",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation",
+          "Mixed forest",
+          "Complex cultivation patterns",
+          "Pastures"
+        ],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Urban fabric": 30.201388888888893,
+          "Pastures": 66.5,
+          "Complex cultivation patterns": 29.604166666666664,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 81.58333333333333,
+          "Broad-leaved forest": 86.88194444444444,
+          "Mixed forest": 3.375,
+          "Moors, heathland and sclerophyllous vegetation": 7.631944444444444,
+          "Transitional woodland, shrub": 71.84722222222221,
+          "Beaches, dunes, sands": 90.03472222222221,
+          "Coastal wetlands": 81.05555555555556,
+          "Marine waters": 36.041666666666664
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Pastures": "False Negative",
+          "Complex cultivation patterns": "True Positive",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Mixed forest": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686914/S2A_MSIL2A_20171201T112431_16_20/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686916/S2A_MSIL2A_20171201T112431_16_20/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686918/S2A_MSIL2A_20171201T112431_16_20/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686920/S2A_MSIL2A_20171201T112431_16_20/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686922/S2A_MSIL2A_20171201T112431_16_20/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686925/S2A_MSIL2A_20171201T112431_16_20/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686927/S2A_MSIL2A_20171201T112431_16_20/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686930/S2A_MSIL2A_20171201T112431_16_20/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686932/S2A_MSIL2A_20171201T112431_16_20/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686935/S2A_MSIL2A_20171201T112431_16_20/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686938/S2A_MSIL2A_20171201T112431_16_20/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660686939/S2A_MSIL2A_20171201T112431_16_20/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.7823349220929, 37.73107310061372]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_16_20"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Permanent crops",
+          "Arable land",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation"
+        ],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Arable land": 95.22916666666667,
+          "Permanent crops": 4.5625,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 96.73611111111111,
+          "Moors, heathland and sclerophyllous vegetation": 9.625,
+          "Coastal wetlands": 67.92361111111111,
+          "Marine waters": 84.90972222222221
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Permanent crops": "False Negative",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687005/S2A_MSIL2A_20171201T112431_27_74/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687007/S2A_MSIL2A_20171201T112431_27_74/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687009/S2A_MSIL2A_20171201T112431_27_74/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687011/S2A_MSIL2A_20171201T112431_27_74/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687013/S2A_MSIL2A_20171201T112431_27_74/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687016/S2A_MSIL2A_20171201T112431_27_74/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687017/S2A_MSIL2A_20171201T112431_27_74/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.635381279842957, 37.14662161370745]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_27_74"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Permanent crops",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation"
+        ],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Permanent crops": 4.034722222222222,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 82.02777777777777,
+          "Moors, heathland and sclerophyllous vegetation": 7.472222222222221,
+          "Coastal wetlands": 93.72916666666666,
+          "Marine waters": 80.18055555555556
+        },
+        "status": {
+          "Permanent crops": "False Negative",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687019/S2A_MSIL2A_20171201T112431_27_75/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687021/S2A_MSIL2A_20171201T112431_27_75/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687024/S2A_MSIL2A_20171201T112431_27_75/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687026/S2A_MSIL2A_20171201T112431_27_75/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687028/S2A_MSIL2A_20171201T112431_27_75/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687029/S2A_MSIL2A_20171201T112431_27_75/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.635433192777631, 37.13580477575263]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_27_75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Urban fabric",
+          "Permanent crops",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters"
+        ],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Urban fabric": 25.854166666666668,
+          "Permanent crops": 3.5555555555555554,
+          "Moors, heathland and sclerophyllous vegetation": 10.743055555555555,
+          "Coastal wetlands": 88.68055555555556,
+          "Marine waters": 80.38888888888889
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Permanent crops": "False Negative",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687060/S2A_MSIL2A_20171201T112431_35_72/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687062/S2A_MSIL2A_20171201T112431_35_72/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687064/S2A_MSIL2A_20171201T112431_35_72/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687067/S2A_MSIL2A_20171201T112431_35_72/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687069/S2A_MSIL2A_20171201T112431_35_72/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687070/S2A_MSIL2A_20171201T112431_35_72/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.527147631732069, 37.167873098494795]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_35_72"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Permanent crops",
+          "Arable land",
+          "Natural grassland and sparsely vegetated areas",
+          "Inland waters",
+          "Moors, heathland and sclerophyllous vegetation"
+        ],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Arable land": 95.71527777777777,
+          "Permanent crops": 4.819444444444445,
+          "Natural grassland and sparsely vegetated areas": 98.77083333333333,
+          "Moors, heathland and sclerophyllous vegetation": 8.909722222222221,
+          "Coastal wetlands": 86.61805555555556,
+          "Inland waters": 39
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Permanent crops": "False Negative",
+          "Natural grassland and sparsely vegetated areas": "False Negative",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Inland waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687095/S2A_MSIL2A_20171201T112431_39_71/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687097/S2A_MSIL2A_20171201T112431_39_71/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687099/S2A_MSIL2A_20171201T112431_39_71/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687101/S2A_MSIL2A_20171201T112431_39_71/Natural%20grassland%20and%20sparsely%20vegetated%20areas.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687104/S2A_MSIL2A_20171201T112431_39_71/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687106/S2A_MSIL2A_20171201T112431_39_71/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687107/S2A_MSIL2A_20171201T112431_39_71/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.47300847617641, 37.17846157648165]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_39_71"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Marine waters", "Coastal wetlands"],
+        "datetime": "2017-12-01T11:24:31+0000",
+        "distribution": {
+          "Coastal wetlands": 99.16666666666667,
+          "Marine waters": 5.888888888888888
+        },
+        "status": {
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687326/S2A_MSIL2A_20171201T112431_80_87/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687329/S2A_MSIL2A_20171201T112431_80_87/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660687330/S2A_MSIL2A_20171201T112431_80_87/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.92127728221584, 37.00165702944529]
+      },
+      "id": "S2A_MSIL2A_20171201T112431_80_87"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Arable land", "Coastal wetlands", "Marine waters"],
+        "datetime": "2017-12-21T11:25:01+0000",
+        "distribution": {
+          "Arable land": 85.14583333333333,
+          "Coastal wetlands": 84.65972222222223,
+          "Marine waters": 83.06944444444444
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688112/S2A_MSIL2A_20171221T112501_4_83/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688115/S2A_MSIL2A_20171221T112501_4_83/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688117/S2A_MSIL2A_20171221T112501_4_83/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660688118/S2A_MSIL2A_20171221T112501_4_83/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.944912422179751, 38.852770360272466]
+      },
+      "id": "S2A_MSIL2A_20171221T112501_4_83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Industrial or commercial units",
+          "Marine waters",
+          "Coastal wetlands",
+          "Mixed forest"
+        ],
+        "datetime": "2018-05-26T10:00:31+0000",
+        "distribution": {
+          "Industrial or commercial units": 62.74999999999999,
+          "Mixed forest": 45.59027777777778,
+          "Coastal wetlands": 57.97222222222223,
+          "Marine waters": 67.33333333333333
+        },
+        "status": {
+          "Industrial or commercial units": "False Negative",
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690000/S2A_MSIL2A_20180526T100031_38_84/Industrial%20or%20commercial%20units.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690002/S2A_MSIL2A_20180526T100031_38_84/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690004/S2A_MSIL2A_20180526T100031_38_84/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690007/S2A_MSIL2A_20180526T100031_38_84/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660690008/S2A_MSIL2A_20180526T100031_38_84/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.181887396761056, 65.78146311958544]
+      },
+      "id": "S2A_MSIL2A_20180526T100031_38_84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Land principally occupied by agriculture, with significant areas of natural vegetation",
+          "Arable land",
+          "Coastal wetlands",
+          "Mixed forest"
+        ],
+        "datetime": "2017-08-14T10:00:29+0000",
+        "distribution": {
+          "Arable land": 76.09722222222223,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 65.24305555555556,
+          "Mixed forest": 20.13888888888889,
+          "Coastal wetlands": 74.36111111111111
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691089/S2B_MSIL2A_20170814T100029_26_19/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691092/S2B_MSIL2A_20170814T100029_26_19/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691094/S2B_MSIL2A_20170814T100029_26_19/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691096/S2B_MSIL2A_20170814T100029_26_19/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691097/S2B_MSIL2A_20170814T100029_26_19/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.757282842320198, 60.22592127811761]
+      },
+      "id": "S2B_MSIL2A_20170814T100029_26_19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Permanent crops",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation"
+        ],
+        "datetime": "2017-08-18T11:21:09+0000",
+        "distribution": {
+          "Permanent crops": 6.493055555555556,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 77.86111111111111,
+          "Moors, heathland and sclerophyllous vegetation": 15.604166666666666,
+          "Coastal wetlands": 81.9375,
+          "Marine waters": 59.9375
+        },
+        "status": {
+          "Permanent crops": "False Negative",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691361/S2B_MSIL2A_20170818T112109_74_84/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691363/S2B_MSIL2A_20170818T112109_74_84/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691366/S2B_MSIL2A_20170818T112109_74_84/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691368/S2B_MSIL2A_20170818T112109_74_84/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691370/S2B_MSIL2A_20170818T112109_74_84/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691372/S2B_MSIL2A_20170818T112109_74_84/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.001762318829066, 37.03481174891382]
+      },
+      "id": "S2B_MSIL2A_20170818T112109_74_84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Marine waters", "Coastal wetlands"],
+        "datetime": "2017-08-18T11:21:09+0000",
+        "distribution": {
+          "Coastal wetlands": 82.4236111111111,
+          "Marine waters": 31.819444444444443
+        },
+        "status": {
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691374/S2B_MSIL2A_20170818T112109_74_85/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691376/S2B_MSIL2A_20170818T112109_74_85/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691377/S2B_MSIL2A_20170818T112109_74_85/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.001903863247565, 37.023996132913986]
+      },
+      "id": "S2B_MSIL2A_20170818T112109_74_85"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Arable land", "Coastal wetlands", "Pastures"],
+        "datetime": "2017-09-06T10:10:20+0000",
+        "distribution": {
+          "Arable land": 94.20138888888889,
+          "Pastures": 9.243055555555555,
+          "Coastal wetlands": 85.8125
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Pastures": "False Negative",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691731/S2B_MSIL2A_20170906T101020_84_0/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691733/S2B_MSIL2A_20170906T101020_84_0/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691735/S2B_MSIL2A_20170906T101020_84_0/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660691737/S2B_MSIL2A_20170906T101020_84_0/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.239054691982407, 64.86376068918544]
+      },
+      "id": "S2B_MSIL2A_20170906T101020_84_0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Arable land",
+          "Coastal wetlands",
+          "Marine waters",
+          "Coniferous forest"
+        ],
+        "datetime": "2017-09-24T09:30:19+0000",
+        "distribution": {
+          "Arable land": 90.52083333333333,
+          "Coniferous forest": 7.090277777777778,
+          "Coastal wetlands": 92.66666666666666,
+          "Marine waters": 14.215277777777777
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Coniferous forest": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660692490/S2B_MSIL2A_20170924T093019_35_69/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660692492/S2B_MSIL2A_20170924T093019_35_69/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660692494/S2B_MSIL2A_20170924T093019_35_69/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660692496/S2B_MSIL2A_20170924T093019_35_69/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660692497/S2B_MSIL2A_20170924T093019_35_69/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.766301606998994, 60.588871885846984]
+      },
+      "id": "S2B_MSIL2A_20170924T093019_35_69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Urban fabric", "Marine waters", "Coastal wetlands"],
+        "datetime": "2018-02-20T11:43:39+0000",
+        "distribution": {
+          "Urban fabric": 6.590277777777779,
+          "Coastal wetlands": 92.40972222222223,
+          "Marine waters": 89.31944444444444
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694557/S2B_MSIL2A_20180220T114339_74_61/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694559/S2B_MSIL2A_20180220T114339_74_61/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694561/S2B_MSIL2A_20180220T114339_74_61/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694563/S2B_MSIL2A_20180220T114339_74_61/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.156315904206628, 53.45632202701666]
+      },
+      "id": "S2B_MSIL2A_20180220T114339_74_61"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Urban fabric", "Beaches, dunes, sands", "Coastal wetlands"],
+        "datetime": "2018-02-20T11:43:39+0000",
+        "distribution": {
+          "Urban fabric": 13.1875,
+          "Beaches, dunes, sands": 89.22222222222223,
+          "Coastal wetlands": 89.19444444444444
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694565/S2B_MSIL2A_20180220T114339_74_68/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694567/S2B_MSIL2A_20180220T114339_74_68/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694570/S2B_MSIL2A_20180220T114339_74_68/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694571/S2B_MSIL2A_20180220T114339_74_68/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.161346748604425, 53.38090904165661]
+      },
+      "id": "S2B_MSIL2A_20180220T114339_74_68"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Coniferous forest",
+          "Marine waters",
+          "Mixed forest",
+          "Transitional woodland, shrub"
+        ],
+        "datetime": "2018-02-23T10:10:19+0000",
+        "distribution": {
+          "Broad-leaved forest": 78.95138888888889,
+          "Coniferous forest": 22.131944444444446,
+          "Mixed forest": 21.958333333333332,
+          "Transitional woodland, shrub": 74,
+          "Coastal wetlands": 76.18055555555556,
+          "Marine waters": 31.006944444444446
+        },
+        "status": {
+          "Broad-leaved forest": "False Negative",
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694609/S2B_MSIL2A_20180223T101019_84_36/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694611/S2B_MSIL2A_20180223T101019_84_36/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694613/S2B_MSIL2A_20180223T101019_84_36/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694615/S2B_MSIL2A_20180223T101019_84_36/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694617/S2B_MSIL2A_20180223T101019_84_36/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694619/S2B_MSIL2A_20180223T101019_84_36/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694620/S2B_MSIL2A_20180223T101019_84_36/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.32099412393814, 65.37216477888637]
+      },
+      "id": "S2B_MSIL2A_20180223T101019_84_36"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Arable land", "Coastal wetlands", "Marine waters"],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Arable land": 98.96527777777779,
+          "Coastal wetlands": 97.86805555555556,
+          "Marine waters": 99.21527777777777
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694622/S2B_MSIL2A_20180224T112109_0_14/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694624/S2B_MSIL2A_20180224T112109_0_14/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694626/S2B_MSIL2A_20180224T112109_0_14/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694628/S2B_MSIL2A_20180224T112109_0_14/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.00022999311084, 38.697601787702524]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_0_14"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Arable land",
+          "Transitional woodland, shrub",
+          "Mixed forest",
+          "Complex cultivation patterns",
+          "Pastures"
+        ],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Arable land": 80.42361111111111,
+          "Pastures": 27.958333333333336,
+          "Complex cultivation patterns": 25.048611111111114,
+          "Mixed forest": 33.423611111111114,
+          "Transitional woodland, shrub": 58.63194444444444,
+          "Coastal wetlands": 56.26388888888889
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Pastures": "True Positive",
+          "Complex cultivation patterns": "True Positive",
+          "Mixed forest": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694650/S2B_MSIL2A_20180224T112109_16_69/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694653/S2B_MSIL2A_20180224T112109_16_69/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694655/S2B_MSIL2A_20180224T112109_16_69/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694657/S2B_MSIL2A_20180224T112109_16_69/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694659/S2B_MSIL2A_20180224T112109_16_69/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694661/S2B_MSIL2A_20180224T112109_16_69/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694663/S2B_MSIL2A_20180224T112109_16_69/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.781237355132376, 38.10258740557178]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_16_69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Urban fabric",
+          "Arable land",
+          "Permanent crops",
+          "Mixed forest",
+          "Complex cultivation patterns"
+        ],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Urban fabric": 28.20138888888889,
+          "Arable land": 95.45833333333333,
+          "Permanent crops": 4.3125,
+          "Complex cultivation patterns": 32.173611111111114,
+          "Broad-leaved forest": 83.00694444444444,
+          "Mixed forest": 26.729166666666664,
+          "Coastal wetlands": 82.375
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Arable land": "True Positive",
+          "Permanent crops": "False Negative",
+          "Complex cultivation patterns": "True Positive",
+          "Broad-leaved forest": "False Negative",
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694665/S2B_MSIL2A_20180224T112109_17_26/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694667/S2B_MSIL2A_20180224T112109_17_26/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694669/S2B_MSIL2A_20180224T112109_17_26/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694671/S2B_MSIL2A_20180224T112109_17_26/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694673/S2B_MSIL2A_20180224T112109_17_26/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694675/S2B_MSIL2A_20180224T112109_17_26/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694678/S2B_MSIL2A_20180224T112109_17_26/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694680/S2B_MSIL2A_20180224T112109_17_26/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.76606005016006, 38.567596301660735]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_17_26"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Arable land",
+          "Coastal wetlands",
+          "Mixed forest",
+          "Agro-forestry areas"
+        ],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Arable land": 94.17361111111111,
+          "Agro-forestry areas": 4.5,
+          "Mixed forest": 13.895833333333332,
+          "Coastal wetlands": 94.25
+        },
+        "status": {
+          "Arable land": "True Positive",
+          "Agro-forestry areas": "True Positive",
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694682/S2B_MSIL2A_20180224T112109_18_25/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694684/S2B_MSIL2A_20180224T112109_18_25/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694687/S2B_MSIL2A_20180224T112109_18_25/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694689/S2B_MSIL2A_20180224T112109_18_25/Agro-forestry%20areas.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694690/S2B_MSIL2A_20180224T112109_18_25/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.752248350161468, 38.578382282861696]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_18_25"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Arable land",
+          "Mixed forest",
+          "Complex cultivation patterns",
+          "Agro-forestry areas"
+        ],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Arable land": 88.9513888888889,
+          "Complex cultivation patterns": 17.208333333333332,
+          "Agro-forestry areas": 3.763888888888889,
+          "Mixed forest": 26.0625,
+          "Coastal wetlands": 68.21527777777779
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Complex cultivation patterns": "True Positive",
+          "Agro-forestry areas": "True Positive",
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694693/S2B_MSIL2A_20180224T112109_19_26/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694695/S2B_MSIL2A_20180224T112109_19_26/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694697/S2B_MSIL2A_20180224T112109_19_26/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694699/S2B_MSIL2A_20180224T112109_19_26/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694701/S2B_MSIL2A_20180224T112109_19_26/Agro-forestry%20areas.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694703/S2B_MSIL2A_20180224T112109_19_26/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.738510946026533, 38.56753800364279]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_19_26"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Marine waters",
+          "Coastal wetlands",
+          "Inland waters",
+          "Pastures"
+        ],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Pastures": 5.375,
+          "Coastal wetlands": 93.97916666666667,
+          "Inland waters": 7.5,
+          "Marine waters": 94.31944444444444
+        },
+        "status": {
+          "Pastures": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Inland waters": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694765/S2B_MSIL2A_20180224T112109_2_1/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694767/S2B_MSIL2A_20180224T112109_2_1/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694769/S2B_MSIL2A_20180224T112109_2_1/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694771/S2B_MSIL2A_20180224T112109_2_1/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694772/S2B_MSIL2A_20180224T112109_2_1/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.972577057349246, 38.838181345574355]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_2_1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Coastal wetlands"],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Coastal wetlands": 72.13888888888889
+        },
+        "status": {
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694847/S2B_MSIL2A_20180224T112109_3_1/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694848/S2B_MSIL2A_20180224T112109_3_1/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.958750366351232, 38.83817728145051]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_3_1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Coastal wetlands", "Pastures"],
+        "datetime": "2018-02-24T11:21:09+0000",
+        "distribution": {
+          "Pastures": 30.29861111111111,
+          "Coastal wetlands": 64.61111111111111
+        },
+        "status": {
+          "Pastures": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694993/S2B_MSIL2A_20180224T112109_4_3/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694995/S2B_MSIL2A_20180224T112109_4_3/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660694997/S2B_MSIL2A_20180224T112109_4_3/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.944940340046141, 38.81654369202335]
+      },
+      "id": "S2B_MSIL2A_20180224T112109_4_3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Urban fabric",
+          "Inland waters",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Marine waters",
+          "Complex cultivation patterns"
+        ],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Urban fabric": 47.34722222222222,
+          "Complex cultivation patterns": 23.395833333333332,
+          "Moors, heathland and sclerophyllous vegetation": 18.055555555555554,
+          "Coastal wetlands": 74.29861111111111,
+          "Inland waters": 31.78472222222222,
+          "Marine waters": 52.83333333333333
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Complex cultivation patterns": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Inland waters": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695556/S2B_MSIL2A_20180326T112109_30_74/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695558/S2B_MSIL2A_20180326T112109_30_74/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695560/S2B_MSIL2A_20180326T112109_30_74/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695563/S2B_MSIL2A_20180326T112109_30_74/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695565/S2B_MSIL2A_20180326T112109_30_74/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695567/S2B_MSIL2A_20180326T112109_30_74/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695568/S2B_MSIL2A_20180326T112109_30_74/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.594843942808138, 37.146489978786235]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_30_74"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Broad-leaved forest",
+          "Permanent crops",
+          "Arable land",
+          "Inland waters",
+          "Moors, heathland and sclerophyllous vegetation",
+          "Mixed forest",
+          "Transitional woodland, shrub"
+        ],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Arable land": 87.68055555555556,
+          "Permanent crops": 4.708333333333333,
+          "Broad-leaved forest": 77.27083333333333,
+          "Mixed forest": 21.875,
+          "Moors, heathland and sclerophyllous vegetation": 13.604166666666668,
+          "Transitional woodland, shrub": 31.166666666666664,
+          "Coastal wetlands": 80.61805555555556,
+          "Inland waters": 21.32638888888889
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Permanent crops": "False Negative",
+          "Broad-leaved forest": "False Negative",
+          "Mixed forest": "True Positive",
+          "Moors, heathland and sclerophyllous vegetation": "True Positive",
+          "Transitional woodland, shrub": "False Negative",
+          "Coastal wetlands": "False Negative",
+          "Inland waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695630/S2B_MSIL2A_20180326T112109_34_70/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695632/S2B_MSIL2A_20180326T112109_34_70/Broad-leaved%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695635/S2B_MSIL2A_20180326T112109_34_70/Permanent%20crops.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695637/S2B_MSIL2A_20180326T112109_34_70/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695640/S2B_MSIL2A_20180326T112109_34_70/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695642/S2B_MSIL2A_20180326T112109_34_70/Moors%2C%20heathland%20and%20sclerophyllous%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695644/S2B_MSIL2A_20180326T112109_34_70/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695647/S2B_MSIL2A_20180326T112109_34_70/Transitional%20woodland%2C%20shrub.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660695648/S2B_MSIL2A_20180326T112109_34_70/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.54053273177169, 37.189559540845494]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_34_70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Coastal wetlands",
+          "Marine waters"
+        ],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 99.27083333333333,
+          "Coastal wetlands": 95.65277777777777,
+          "Marine waters": 8.868055555555555
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696198/S2B_MSIL2A_20180326T112109_75_86/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696200/S2B_MSIL2A_20180326T112109_75_86/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696202/S2B_MSIL2A_20180326T112109_75_86/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696203/S2B_MSIL2A_20180326T112109_75_86/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.988558320240269, 37.01306631290103]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_75_86"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Marine waters", "Coastal wetlands"],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Coastal wetlands": 84.77083333333333,
+          "Marine waters": 84.25694444444444
+        },
+        "status": {
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696260/S2B_MSIL2A_20180326T112109_82_87/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696263/S2B_MSIL2A_20180326T112109_82_87/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696264/S2B_MSIL2A_20180326T112109_82_87/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.8943081094506224, 37.00140883949171]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_82_87"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Beaches, dunes, sands",
+          "Coastal wetlands",
+          "Marine waters"
+        ],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Beaches, dunes, sands": 97.76388888888889,
+          "Coastal wetlands": 76.13194444444444,
+          "Marine waters": 49.666666666666664
+        },
+        "status": {
+          "Beaches, dunes, sands": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696280/S2B_MSIL2A_20180326T112109_82_90/Beaches%2C%20dunes%2C%20sands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696282/S2B_MSIL2A_20180326T112109_82_90/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696284/S2B_MSIL2A_20180326T112109_82_90/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696286/S2B_MSIL2A_20180326T112109_82_90/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.894777626751534, 36.96896286777258]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_82_90"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Marine waters", "Coastal wetlands"],
+        "datetime": "2018-03-26T11:21:09+0000",
+        "distribution": {
+          "Coastal wetlands": 82.55555555555556,
+          "Marine waters": 8.125
+        },
+        "status": {
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696295/S2B_MSIL2A_20180326T112109_83_88/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696297/S2B_MSIL2A_20180326T112109_83_88/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696299/S2B_MSIL2A_20180326T112109_83_88/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.880982145993247, 36.99046719294069]
+      },
+      "id": "S2B_MSIL2A_20180326T112109_83_88"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Arable land",
+          "Marine waters",
+          "Complex cultivation patterns",
+          "Pastures"
+        ],
+        "datetime": "2018-04-21T11:43:49+0000",
+        "distribution": {
+          "Arable land": 68.00694444444444,
+          "Pastures": 29.680555555555554,
+          "Complex cultivation patterns": 29.951388888888893,
+          "Coastal wetlands": 40.576388888888886,
+          "Marine waters": 52.07638888888889
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Pastures": "True Positive",
+          "Complex cultivation patterns": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696928/S2B_MSIL2A_20180421T114349_81_11/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696930/S2B_MSIL2A_20180421T114349_81_11/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696933/S2B_MSIL2A_20180421T114349_81_11/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696935/S2B_MSIL2A_20180421T114349_81_11/Complex%20cultivation%20patterns.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696938/S2B_MSIL2A_20180421T114349_81_11/Pastures.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660696939/S2B_MSIL2A_20180421T114349_81_11/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.054760450858523, 53.09452365987898]
+      },
+      "id": "S2B_MSIL2A_20180421T114349_81_11"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": ["Marine waters", "Coastal wetlands", "Inland waters"],
+        "datetime": "2018-05-15T11:21:10+0000",
+        "distribution": {
+          "Coastal wetlands": 80.46527777777777,
+          "Inland waters": 25.618055555555557,
+          "Marine waters": 92.29166666666667
+        },
+        "status": {
+          "Coastal wetlands": "False Negative",
+          "Inland waters": "True Positive",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709080/S2B_MSIL2A_20180515T112110_1_84/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709082/S2B_MSIL2A_20180515T112110_1_84/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709084/S2B_MSIL2A_20180515T112110_1_84/Inland%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709085/S2B_MSIL2A_20180515T112110_1_84/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.98640303033756, 38.84196864705102]
+      },
+      "id": "S2B_MSIL2A_20180515T112110_1_84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Coniferous forest",
+          "Arable land",
+          "Mixed forest",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation"
+        ],
+        "datetime": "2018-05-25T09:40:30+0000",
+        "distribution": {
+          "Arable land": 71.38194444444444,
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": 59.12500000000001,
+          "Coniferous forest": 12.416666666666666,
+          "Mixed forest": 33.708333333333336,
+          "Coastal wetlands": 72.78472222222221
+        },
+        "status": {
+          "Arable land": "False Negative",
+          "Land principally occupied by agriculture, with significant areas of natural vegetation": "False Negative",
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709810/S2B_MSIL2A_20180525T94030_29_76/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709812/S2B_MSIL2A_20180525T94030_29_76/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709815/S2B_MSIL2A_20180525T94030_29_76/Arable%20land.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709818/S2B_MSIL2A_20180525T94030_29_76/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709822/S2B_MSIL2A_20180525T94030_29_76/Land%20principally%20occupied%20by%20agriculture%2C%20with%20significant%20areas%20of%20natural%20vegetation.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709824/S2B_MSIL2A_20180525T94030_29_76/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.633407395381923, 60.514145582414514]
+      },
+      "id": "S2B_MSIL2A_20180525T94030_29_76"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "labels": [
+          "Coastal wetlands",
+          "Coniferous forest",
+          "Urban fabric",
+          "Marine waters",
+          "Mixed forest"
+        ],
+        "datetime": "2018-05-25T09:40:30+0000",
+        "distribution": {
+          "Urban fabric": 23.92361111111111,
+          "Coniferous forest": 11.020833333333334,
+          "Mixed forest": 5.979166666666667,
+          "Coastal wetlands": 64.52083333333334,
+          "Marine waters": 81.55555555555556
+        },
+        "status": {
+          "Urban fabric": "True Positive",
+          "Coniferous forest": "True Positive",
+          "Mixed forest": "True Positive",
+          "Coastal wetlands": "False Negative",
+          "Marine waters": "True Positive"
+        },
+        "images": [
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709827/S2B_MSIL2A_20180525T94030_33_70/Coastal%20wetlands.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709829/S2B_MSIL2A_20180525T94030_33_70/Coniferous%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709832/S2B_MSIL2A_20180525T94030_33_70/Urban%20fabric.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709834/S2B_MSIL2A_20180525T94030_33_70/Marine%20waters.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709836/S2B_MSIL2A_20180525T94030_33_70/Mixed%20forest.png",
+          "https://res.cloudinary.com/hexagon-11/image/upload/v1660709838/S2B_MSIL2A_20180525T94030_33_70/original.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.722255773066784, 60.57834245330461]
+      },
+      "id": "S2B_MSIL2A_20180525T94030_33_70"
+    }
+  ]
+}
