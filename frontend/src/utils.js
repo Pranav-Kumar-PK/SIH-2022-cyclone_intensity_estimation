@@ -20,4 +20,28 @@ const labelIcons = {
   "Inland waters": "fa-solid fa-droplet",
   "Marine waters": "fa-solid fa-person-swimming",
 };
-export default labelIcons;
+
+const labelsArrayMap = {
+  marine_waters: "Marine waters",
+  inland_waters: "Inland waters",
+  coastal_wetlands: "Coastal wetlands",
+  inland_wetlands: "Inland wetlands",
+  transitional_woodland: "Transitional woodland, shrub",
+  moors_heathland: "Moors, heathland and sclerophyllous vegetation",
+  natural_grassland: "Natural grassland and sparsely vegetated areas",
+  mixed_forest: "Mixed forest",
+  coniferous_forest: "Coniferous forest",
+  pastures: "Pastures",
+  lpoa: "Land principally occupied by agriculture",
+  complex_cultivation_patterns: "Complex cultivation patterns",
+  permanent_crops: "Permanent crops",
+  industrial_commercial: "Industrial or commercial units",
+  urban_fabric: "Urban fabric",
+  broad_leaved_forest: "Broad-leaved forest",
+  agro_forestry: "Agro-forestry areas",
+  arable_land: "Arable land",
+  beaches_dunes_sands: "Beaches, dunes, sands",
+};
+
+export { labelIcons, labelsArrayMap };
+// export default labelIcons;

@@ -27,6 +27,7 @@ import beaches_dunes_sands from "../data/Beaches, dunes, sands.json";
 import Popup from "./Popup";
 import Carousel from "./carousel";
 import Analysis from "./Toggle";
+import { labelsArrayMap } from "../utils.js";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJhbmF2MTI5OCIsImEiOiJja3NjMWxjOTMwYzRkMm9xcTUxNXFpYzl5In0._gL-06fXtg1yBszkiiFjEQ";
@@ -406,7 +407,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -416,7 +417,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -426,7 +427,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -436,7 +437,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -446,7 +447,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -456,7 +457,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -466,7 +467,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -476,7 +477,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -486,7 +487,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -496,7 +497,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -506,7 +507,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -519,7 +520,7 @@ export default function Map() {
           setPopupData({
             images: JSON.parse(e.features[0].properties.images),
             features: JSON.parse(e.features[0].properties.labels),
-            distribution: e.features[0].properties.distribution,
+            distribution: JSON.parse(e.features[0].properties.distribution),
             datetime: e.features[0].properties.datetime,
             coordinates: e.features[0].geometry.coordinates,
           });
@@ -530,7 +531,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -540,7 +541,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -550,7 +551,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -560,7 +561,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -570,7 +571,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -580,7 +581,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -590,7 +591,7 @@ export default function Map() {
         setPopupData({
           images: JSON.parse(e.features[0].properties.images),
           features: JSON.parse(e.features[0].properties.labels),
-          distribution: e.features[0].properties.distribution,
+          distribution: JSON.parse(e.features[0].properties.distribution),
           datetime: e.features[0].properties.datetime,
           coordinates: e.features[0].geometry.coordinates,
         });
@@ -627,7 +628,8 @@ export default function Map() {
 
         const label = document.createElement("label");
         label.setAttribute("for", `${labels}`);
-        label.textContent = labels;
+        console.log(labelsArray);
+        label.textContent = labelsArrayMap[labels];
         filterGroup.appendChild(label);
         // console.log(checkedLayerId, "CHC");
         input.addEventListener("change", (e) => {
