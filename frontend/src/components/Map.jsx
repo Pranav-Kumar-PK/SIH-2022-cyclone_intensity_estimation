@@ -195,7 +195,13 @@ export default function Map() {
         type: "circle",
         source: "marine_waters",
         paint: {
-          "circle-radius": 4.1,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#7400b8",
           // "circle-stroke-color": "white",
@@ -206,7 +212,13 @@ export default function Map() {
         type: "circle",
         source: "inland_waters",
         paint: {
-          "circle-radius": 4,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#4ea8de",
           // "circle-stroke-color": "white",
@@ -217,7 +229,13 @@ export default function Map() {
         type: "circle",
         source: "coastal_wetlands",
         paint: {
-          "circle-radius": 3.9,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#003049",
           // "circle-stroke-color": "white",
@@ -228,7 +246,13 @@ export default function Map() {
         type: "circle",
         source: "inland_wetlands",
         paint: {
-          "circle-radius": 3.8,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#80ffdb",
           // "circle-stroke-color": "white",
@@ -239,7 +263,13 @@ export default function Map() {
         type: "circle",
         source: "transitional_woodland",
         paint: {
-          "circle-radius": 3.7,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#ff9b54",
           // "circle-stroke-color": "white",
@@ -250,7 +280,13 @@ export default function Map() {
         type: "circle",
         source: "moors_heathland",
         paint: {
-          "circle-radius": 3.6,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#081c15",
           // "circle-stroke-color": "white",
@@ -261,7 +297,13 @@ export default function Map() {
         type: "circle",
         source: "natural_grassland",
         paint: {
-          "circle-radius": 3.5,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#1b4332",
           // "circle-stroke-color": "white",
@@ -272,7 +314,13 @@ export default function Map() {
         type: "circle",
         source: "mixed_forest",
         paint: {
-          "circle-radius": 3.4,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#70e000",
           // "circle-stroke-color": "white",
@@ -283,7 +331,13 @@ export default function Map() {
         type: "circle",
         source: "coniferous_forest",
         paint: {
-          "circle-radius": 3.3,
+          "circle-radius": {
+                base: 4.75,
+                stops: [
+                  [12, 4],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#38b000",
           // "circle-stroke-color": "white",
@@ -294,7 +348,13 @@ export default function Map() {
         type: "circle",
         source: "pastures",
         paint: {
-          "circle-radius": 3.2,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#40916c",
           // "circle-stroke-color": "white",
@@ -305,7 +365,13 @@ export default function Map() {
         type: "circle",
         source: "lpoa",
         paint: {
-          "circle-radius": 3.1,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#d81159",
           // "circle-stroke-color": "white",
@@ -316,7 +382,13 @@ export default function Map() {
         type: "circle",
         source: "complex_cultivation_patterns",
         paint: {
-          "circle-radius": 3,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#95d5b2",
           // "circle-stroke-color": "white",
@@ -327,7 +399,13 @@ export default function Map() {
         type: "circle",
         source: "permanent_crops",
         paint: {
-          "circle-radius": 3.15,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#a47e1b",
           // "circle-stroke-color": "white",
@@ -338,7 +416,13 @@ export default function Map() {
         type: "circle",
         source: "industrial_commercial",
         paint: {
-          "circle-radius": 3.25,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#370617",
           // "circle-stroke-color": "white",
@@ -349,7 +433,13 @@ export default function Map() {
         type: "circle",
         source: "urban_fabric",
         paint: {
-          "circle-radius": 3.35,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#9d0208",
           // "circle-stroke-color": "white",
@@ -360,7 +450,13 @@ export default function Map() {
         type: "circle",
         source: "broad_leaved_forest",
         paint: {
-          "circle-radius": 3.45,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#007200",
           // "circle-stroke-color": "white",
@@ -371,7 +467,13 @@ export default function Map() {
         type: "circle",
         source: "agro_forestry",
         paint: {
-          "circle-radius": 3.55,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#004b23",
           // "circle-stroke-color": "white",
@@ -382,7 +484,13 @@ export default function Map() {
         type: "circle",
         source: "arable_land",
         paint: {
-          "circle-radius": 2.9,
+          "circle-radius": {
+                base: 3.75,
+                stops: [
+                  [12, 3],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#ffe169",
           // "circle-stroke-color": "white",
@@ -393,7 +501,13 @@ export default function Map() {
         type: "circle",
         source: "beaches_dunes_sands",
         paint: {
-          "circle-radius": 3.76,
+          "circle-radius": {
+                base: 5.75,
+                stops: [
+                  [12, 5],
+                  [22, 25],
+                ],
+              },
           // "circle-stroke-width": 2,
           "circle-color": "#dbb42c",
           // "circle-stroke-color": "white",
@@ -661,10 +775,10 @@ export default function Map() {
       //       paint: {
       //         // Make circles larger as the user zooms from z12 to z22.
       //         "circle-radius": {
-      //           base: 17.75,
+      //           base: 5.75,
       //           stops: [
-      //             [12, 17],
-      //             [22, 180],
+      //             [12, 5],
+      //             [22, 25],
       //           ],
       //         },
       //         // Color circles by ethnicity, using a `match` expression.
