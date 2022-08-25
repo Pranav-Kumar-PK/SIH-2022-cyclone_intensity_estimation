@@ -1,5 +1,15 @@
 import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "mapbox-gl";
+import Uploady from "@rpldy/uploady";
+import UploadButton from "@rpldy/upload-button";
+let cloudinary = require("cloudinary").v2;
+
+cloudinary.config({
+  cloud_name: "hexagon-11",
+  api_key: "342439747765462",
+  api_secret: "Fqqow0VJ7W0D6oeLN9ETZSAJzvE",
+  secure: false,
+});
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJhbmF2MTI5OCIsImEiOiJja3NjMWxjOTMwYzRkMm9xcTUxNXFpYzl5In0._gL-06fXtg1yBszkiiFjEQ";
@@ -93,6 +103,18 @@ export default function Starter() {
             <span></span>
             Map View
           </a>
+          {/* <a className="map-button" href="/map">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Upload
+          </a> */}
+          {/* <input type="file" webkitdirectory mozdirectory /> */}
+          {/* <Uploady destination={{ url: "https://my-server.com/upload" }}>
+            <UploadButton className="map-button">Upload</UploadButton>
+          </Uploady> */}
+          <input {...getInputProps()} directory="" webkitdirectory="" type="file" />
         </div>
         <br />
 

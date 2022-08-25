@@ -7,8 +7,9 @@ const SideBarWrap = (props) => {
     <div className="sidebar-main">
       <div id="sidebar" className="sidebar-wrapper">
         <div className="sidebar-content">
-          <div className="sidebar__heading">
-            <span>LABELS</span>
+          <div className="sidebar__top">
+            <div className="sidebar__heading"><span>LABELS</span></div>
+            <div id="sidebar__none"></div>
             <hr />
           </div>
           <nav id="filter-group" className="filter-group"></nav>

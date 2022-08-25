@@ -747,10 +747,9 @@ export default function Map() {
 
         const label = document.createElement("label");
         label.setAttribute("for", `${labels}`);
-        console.log(labelsArray);
         label.textContent = labelsArrayMap[labels];
         filterGroup.appendChild(label);
-        // console.log(checkedLayerId, "CHC");
+
         input.addEventListener("change", (e) => {
           map.current.setLayoutProperty(
             `${labels}-layer`,
@@ -759,6 +758,31 @@ export default function Map() {
           );
         });
       }
+
+      const no_select = document.getElementById("sidebar__none");
+      const no_select_input = document.createElement("input");
+      no_select_input.type = "checkbox";
+      no_select_input.id = "no-select";
+      no_select_input.checked = false;
+      no_select.appendChild(no_select_input);
+
+      const no_select_label = document.createElement("label");
+      no_select_label.setAttribute("for", "no-select");
+      no_select_label.textContent = "None";
+      no_select.appendChild(no_select_label);
+
+      no_select_input.addEventListener("change", (e) => {
+        for (let labels of labelsArray) {
+          map.current.setLayoutProperty(
+            `${labels}-layer`,
+            "visibility",
+            e.target.checked ? "none" : "visible"
+          );
+          const labelButton = document.getElementById(`${labels}`);
+          if (e.target.checked) labelButton.checked = false;
+          else labelButton.checked = true;
+        }
+      });
     });
   });
   // console.log(popupData)
