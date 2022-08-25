@@ -5,8 +5,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import "../node_modules/bootstrap-social/bootstrap-social.css";
 import "./index.css";
-import Map from "./components/Map";
-import { BrowserRouter, Switch } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import App from "./App.jsx";
 

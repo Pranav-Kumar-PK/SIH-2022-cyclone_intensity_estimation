@@ -1,7 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import Navbar from "./navbar";
 import mapboxgl from "mapbox-gl";
-import SideBarWrap from "./sidewrap";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJhbmF2MTI5OCIsImEiOiJja3NjMWxjOTMwYzRkMm9xcTUxNXFpYzl5In0._gL-06fXtg1yBszkiiFjEQ";

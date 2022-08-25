@@ -1,5 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
-import axios from "axios";
+import React, { useState } from "react";
+
 import { labelIcons } from "../utils.js";
 
 const Popup = (props) => {
