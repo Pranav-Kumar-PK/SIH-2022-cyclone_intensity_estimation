@@ -79,9 +79,11 @@ export default function Starter() {
       <div ref={mapContainer} className="map-container" />
       <div className="header">
         <div className="text">
-          DISCOVER the objects and features in the image using Explainable AI
-          Techniques. Field Data is an incredible source of information to
-          validate earth observation studies.
+          {/* <div className="head">Hexagon_XI</div> */}
+          <div className="discover">DISCOVER</div>
+          <div className="lower_text">Deep dive into Explainability!</div>
+          {/* <div className="discription">DISCOVER the objects and features in the image using Explainable AI
+          Techniques.</div>           */}
         </div>
         <div className="home-center">
           <a className="map-button" href="/map">

@@ -2,6 +2,7 @@
 @import url("https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Fjalla+One&display=swap');
 
 /* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap'); */
 
@@ -15,7 +16,7 @@
 
 .header .text {
   margin: auto;
-  padding-top: 200px;
+  padding-top: 207px;
   position: relative;
   max-width: 900px;
   text-align: center;
@@ -177,7 +178,7 @@ a:hover {
 }
 
 .text {
-  display: flex;
+  // display: flex;
   padding-top: 150px;
   /* align-items: center; */
   justify-content: center;
@@ -1077,4 +1078,20 @@ $bright-color: #fff;
   font-size: xx-large;
   font-weight: 900;
   text-shadow: 1px 1px 1px white;
+}
+
+.text{
+  .head{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+  .discover{
+    font-size: 100px;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  .lower_text{
+    font-family: 'Caveat', cursive;
+    margin-top: -32px;
+    font-size: xxx-large;
+  }
 }
