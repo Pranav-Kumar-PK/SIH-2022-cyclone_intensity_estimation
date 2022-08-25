@@ -107,7 +107,7 @@
   background-position: right center;
 }
 .header {
-  backdrop-filter: blur(2px);
+  // backdrop-filter: blur(2px);
   color: #d6eff3;
   position: relative;
   width: 100%;
@@ -388,7 +388,7 @@ body {
 
 .sidebar-wrapper {
   position: fixed;
-  width: 280px;
+  width: 364px;
   // width: 25px;
   height: 100vh;
   background: #0f2027; /* fallback for old browsers */
@@ -406,7 +406,7 @@ body {
     #257592ad,
     #2366849c,
     #014f6f4f,
-    #0f20270f
+    #0f202700
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   will-change: width;
   transition: width 0.5s ease;

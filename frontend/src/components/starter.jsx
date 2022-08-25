@@ -77,7 +77,7 @@ export default function Starter() {
 
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div ref={mapContainer} className="map-container" />
       <div className="header">
         <div className="text">
