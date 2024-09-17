@@ -2,6 +2,7 @@
 @import url("https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Fjalla+One&display=swap');
 
 /* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap'); */
 
@@ -15,7 +16,7 @@
 
 .header .text {
   margin: auto;
-  padding-top: 200px;
+  padding-top: 207px;
   position: relative;
   max-width: 900px;
   text-align: center;
@@ -177,7 +178,7 @@ a:hover {
 }
 
 .text {
-  display: flex;
+  // display: flex;
   padding-top: 150px;
   /* align-items: center; */
   justify-content: center;
@@ -658,6 +659,23 @@ $bright-color: #fff;
   z-index: 1;
   border-radius: 3px;
   width: 237px;
+  padding-bottom: 175px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  color: #fff;
+  // padding-bottom: 20px;
+}
+
+#sidebar__none {
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  height: 100vh;
+  z-index: 1;
+  border-radius: 3px;
+  width: 237px;
   padding-bottom: 140px;
   overflow-y: scroll;
   scrollbar-width: none;
@@ -681,6 +699,24 @@ $bright-color: #fff;
   padding: 10px;
   width: fit-content;
   border-bottom: 2px solid rgb(0 0 0 / 64%);
+}
+
+#sidebar__none input[type="checkbox"] + label {
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // box-shadow: -5px 8px 8px 1px #000000a3;
+  background-color: #e63946;
+  border-radius: 14px;
+  display: block;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  width: fit-content;
+  border-bottom: 2px solid rgb(0 0 0 / 64%);
+}
+#sidebar__none::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 // .filter-group input[type="checkbox"] + label {
@@ -770,6 +806,7 @@ $bright-color: #fff;
   display: inline-block;
   padding: 25px 30px;
   color: #03e9f4;
+  margin: 10px;
   background-color: #00050843;
   text-decoration: none;
   text-transform: uppercase;
@@ -1074,8 +1111,92 @@ $bright-color: #fff;
 
 .sidebar__heading{
   text-align: center;
-  font-family: 'Kaushan Script', cursive;
   font-size: xx-large;
   font-weight: 900;
   text-shadow: 1px 1px 1px white;
+}
+
+.text{
+  .head{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+  .discover{
+    font-size: 100px;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  .lower_text{
+    font-family: 'Caveat', cursive;
+    margin-top: -32px;
+    font-size: xxx-large;
+  }
+}
+
+#sidebar__none input[type="checkbox"] {
+  display: none;
+}
+#sidebar__none input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 14px/20px "Open Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+#sidebar__none input[type="checkbox"] + label {
+  background-color: aliceblue;
+}
+
+#sidebar__none input[type="checkbox"]:hover + label:hover {
+  background-color: #e63946;
+}
+#sidebar__none input[type="checkbox"]:checked + label {
+  background-color: #e63946;
+}
+#sidebar__none input[type="checkbox"]:checked:hover + label:hover {
+  background-color: aliceblue;
+}
+#sidebar__none input[type="checkbox"]:hover + label:before {
+  border: 1px solid #343a3f;
+  box-shadow: 2px 1px 0 #343a3f;
+}
+#sidebar__none input[type="checkbox"] + label:last-child {
+  width: 180px;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+#sidebar__none input[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  margin-left: 0.2rem;
+  margin-top: 0.52rem;
+  width: 1.36em;
+  height: 1.36em;
+  border: 1px solid #343a3f;
+  border-radius: 1em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.2s, background 0.2s ease-in-out;
+  transition: all 0.2s, background 0.2s ease-in-out;
+  background: #e63946;
+  box-shadow: -2px -1px 0 #343a3f;
+}
+#sidebar__none input[type="checkbox"]:checked + label:before {
+  border-radius: 1em;
+  border: 2px solid #fff;
+  margin-top: 0.52rem;
+  width: 1.46em;
+  height: 1.46em;
+  background: #000000;
+  box-shadow: 2px 1px 4px 1px #000000;
+}
+
+.sidebar__top{
+  height: max-content;
+  hr{
+    margin-top: 65px;
+    width: 340px;
+    margin-left: -32px;
+  }
 }

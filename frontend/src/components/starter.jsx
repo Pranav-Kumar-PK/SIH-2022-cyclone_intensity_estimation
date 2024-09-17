@@ -1,7 +1,10 @@
 import React, { useRef, useEffect, useState } from "react";
-import Navbar from "./navbar";
 import mapboxgl from "mapbox-gl";
-import SideBarWrap from "./sidewrap";
+const cloudinary = require('cloudinary').v2;
+// const { CloudinaryStorage } = require('multer-storage-cloudinary');
+// const { storage } = require("../cloudinary"); //node automatically looks for index file in a folder
+// const multer = require('multer');
+// const upload = multer({ storage });
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJhbmF2MTI5OCIsImEiOiJja3NjMWxjOTMwYzRkMm9xcTUxNXFpYzl5In0._gL-06fXtg1yBszkiiFjEQ";
@@ -75,15 +78,22 @@ export default function Starter() {
     });
   });
 
+  const onSubmitHandler = (e)=>{
+    e.preventDefault();
+    console.log(e.target[0].files[0]);
+  }
+
   return (
     <div>
       {/* <Navbar /> */}
       <div ref={mapContainer} className="map-container" />
       <div className="header">
         <div className="text">
-          DISCOVER the objects and features in the image using Explainable AI
-          Techniques. Field Data is an incredible source of information to
-          validate earth observation studies.
+          {/* <div className="head">Hexagon_XI</div> */}
+          <div className="discover">DISCOVER</div>
+          <div className="lower_text">Deep dive into Explainability!</div>
+          {/* <div className="discription">DISCOVER the objects and features in the image using Explainable AI
+          Techniques.</div>           */}
         </div>
         <div className="home-center">
           <a className="map-button" href="/map">
@@ -93,6 +103,33 @@ export default function Starter() {
             <span></span>
             Map View
           </a>
+          {/* <a className="map-button" href="/map">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Upload
+          </a> */}
+          {/* <input type="file" webkitdirectory mozdirectory /> */}
+          <form
+            onSubmit={onSubmitHandler}
+          >
+            <div class="mb-3">
+              <label for="images" class="form-label">
+                Choose images
+              </label>
+              <input
+                class="form-control"
+                type="file"
+                id="images"
+                name="image"
+                multiple
+              />
+            </div>
+            <button type="submit">Upload</button>
+          </form>
+
+          {/* <input {...getInputProps()} directory="" webkitdirectory="" type="file" /> */}
         </div>
         <br />
 
